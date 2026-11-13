@@ -1,7 +1,8 @@
 import { useDeferredValue, useEffect, useMemo, useState } from 'react'
-import { foldText, initials } from '../lib/cards.js'
+import { foldText } from '../lib/cards.js'
 import { newId } from '../lib/collection.js'
 import { META_TEAMS } from '../lib/metaTeams.js'
+import { Face } from './TeamDetail.jsx'
 import { FORMATIONS, autoBuild, canPlay, chemistry, checkRequirement, playerKey, requirementParts, slotsOf, teamRating } from '../lib/squad.js'
 
 const DRAFT_KEY = 'fc27-squad-draft'
@@ -45,7 +46,7 @@ function SlotCard({ slot, card, chem, selected, locked, onClick, role }) {
         <>
           <span className="slot-rating">{card.rating}</span>
           <span className="slot-face">
-            {card.img ? <img src={card.img} alt="" loading="lazy" /> : <span>{initials(card.name)}</span>}
+            <Face card={card} />
           </span>
           <span className="slot-name">{card.name.length <= 12 ? card.name : card.name.split(' ').at(-1)}</span>
           <ChemDots value={chem ?? 0} />

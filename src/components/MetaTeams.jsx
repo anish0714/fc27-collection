@@ -4,7 +4,7 @@ import { META_TEAMS, META_TEAMS_INFO, resolveTeam } from '../lib/metaTeams.js'
 const DRAFT_KEY = 'fc27-squad-draft'
 
 // Puts a meta team on the Squad builder pitch and switches to that tab.
-function buildInSquadBuilder(team, rows) {
+export function buildInSquadBuilder(team, rows) {
   const draft = {
     formation: team.formation,
     ids: rows.map((r) => (r.pick ? r.pick.id : null)),
@@ -30,9 +30,9 @@ function TeamCard({ team, allCards, ownedCards }) {
     <article className="team-card">
       <header>
         <div>
-          <h3>{team.name}</h3>
+          <h3><a href={`#team-${team.id}`}>{team.name}</a></h3>
           <div className="tags">
-            <span className="tag">{team.formation}</span>
+            <a className="tag tag-link" href={`#team-${team.id}`} title="View this team on the pitch">{team.formation} ↗</a>
             <span className="tag">Build-up: {team.tactics.buildUp}</span>
             <span className="tag">Def. line {team.tactics.defensiveLine}</span>
           </div>
@@ -60,7 +60,10 @@ function TeamCard({ team, allCards, ownedCards }) {
         ))}
       </ul>
       <footer>
-        <button type="button" className="link" onClick={() => setOpen((v) => !v)}>{open ? 'Hide defence' : 'Show all 11'}</button>
+        <span className="team-links">
+          <a href={`#team-${team.id}`}>View team</a>
+          <button type="button" className="link" onClick={() => setOpen((v) => !v)}>{open ? 'Hide defence' : 'Show all 11'}</button>
+        </span>
         <button type="button" className="primary" onClick={() => buildInSquadBuilder(team, rows)}>Build this team</button>
       </footer>
     </article>

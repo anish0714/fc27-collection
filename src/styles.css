@@ -1831,3 +1831,225 @@ input[type='checkbox'] {
   border-radius: 8px;
   padding: 8px 10px;
 }
+
+/* Meta team page */
+:root {
+  --focus-attack: #ff8a5c;
+  --focus-balanced: #f5c46b;
+  --focus-defend: #6bb8ff;
+}
+
+.team-card h3 a { color: inherit; text-decoration: none; }
+.team-card h3 a:hover { color: var(--accent); text-decoration: underline; }
+
+.tag-link {
+  color: var(--accent);
+  text-decoration: none;
+  border-color: color-mix(in srgb, var(--accent) 45%, transparent);
+}
+
+.tag-link:hover { background: color-mix(in srgb, var(--accent) 15%, transparent); }
+
+.team-links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.team-links a {
+  color: var(--accent);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.team-detail {
+  display: grid;
+  gap: 16px;
+}
+
+.team-detail > p { margin: 0; max-width: 75ch; }
+
+.team-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 360px;
+  gap: 16px;
+  align-items: start;
+}
+
+.team-pitch .team-slot { cursor: default; }
+.team-pitch .team-slot:hover { transform: translate(-50%, -50%); }
+
+.team-slot.is-needed {
+  box-shadow: 0 0 0 2px rgba(230, 240, 236, 0.35), 0 4px 12px rgba(0, 0, 0, 0.4);
+  filter: saturate(0.55) brightness(0.85);
+}
+
+.team-slot.is-owned {
+  box-shadow: 0 0 0 3px var(--accent), 0 4px 12px rgba(0, 0, 0, 0.45);
+}
+
+.owned-mark {
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  width: 20px;
+  height: 20px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--accent);
+  color: var(--accent-ink);
+  font-size: 0.75rem;
+  font-weight: 900;
+}
+
+.slot-role {
+  position: absolute;
+  top: calc(100% + 13px);
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  font-size: 0.62rem;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 4px;
+  background: rgba(11, 18, 16, 0.8);
+  color: var(--text);
+  border-left: 3px solid var(--muted);
+}
+
+.slot-role.focus-attack { border-left-color: var(--focus-attack); }
+.slot-role.focus-balanced { border-left-color: var(--focus-balanced); }
+.slot-role.focus-defend { border-left-color: var(--focus-defend); }
+
+.line-marker {
+  position: absolute;
+  left: 4%;
+  right: 4%;
+  border-top: 2px dashed color-mix(in srgb, var(--focus-defend) 70%, transparent);
+  pointer-events: none;
+}
+
+.line-marker span {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 0.62rem;
+  font-weight: 700;
+  color: var(--focus-defend);
+}
+
+.pitch-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 14px;
+  justify-content: center;
+}
+
+.pitch-legend span { display: inline-flex; align-items: center; gap: 5px; }
+
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+  background: var(--muted);
+}
+
+.dot.owned { background: var(--accent); }
+.dot.needed { background: transparent; border: 2px solid rgba(230, 240, 236, 0.5); }
+.dot.focus-attack { background: var(--focus-attack); }
+.dot.focus-balanced { background: var(--focus-balanced); }
+.dot.focus-defend { background: var(--focus-defend); }
+
+.tactic {
+  display: grid;
+  gap: 4px;
+}
+
+.tactic p { margin: 0; }
+
+.meter {
+  height: 8px;
+  border-radius: 999px;
+  background: var(--panel-2);
+  overflow: hidden;
+}
+
+.meter > div {
+  height: 100%;
+  background: linear-gradient(90deg, var(--focus-defend), var(--accent));
+  border-radius: inherit;
+}
+
+.meter-scale {
+  display: flex;
+  justify-content: space-between;
+}
+
+.role-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.role-list li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+  font-size: 0.85rem;
+}
+
+.role-main {
+  flex: 1;
+  display: grid;
+  min-width: 0;
+}
+
+.role-main > span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.role-main > span:first-child { font-weight: 600; }
+.owned-text { color: var(--accent); }
+
+.role-tag {
+  display: grid;
+  justify-items: end;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-align: right;
+}
+
+.focus {
+  font-size: 0.68rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.focus.focus-attack { color: var(--focus-attack); }
+.focus.focus-balanced { color: var(--focus-balanced); }
+.focus.focus-defend { color: var(--focus-defend); }
+
+@media (max-width: 900px) {
+  .team-layout { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 560px) {
+  .slot-role { font-size: 0.55rem; padding: 0 4px; }
+}
+
+.team-pitch {
+  aspect-ratio: 0.74;
+  max-width: 640px;
+}
+
+.team-pitch .slot {
+  width: clamp(52px, 12.5%, 84px);
+}

@@ -1,6 +1,7 @@
 import { useCallback, useDeferredValue, useEffect, useMemo, useRef, useState } from 'react'
 import Meta from './components/Meta.jsx'
 import MetaTeams from './components/MetaTeams.jsx'
+import TeamDetail from './components/TeamDetail.jsx'
 import Packs from './components/Packs.jsx'
 import PlayerCard from './components/PlayerCard.jsx'
 import Sbcs from './components/Sbcs.jsx'
@@ -48,9 +49,11 @@ const TABS = ['cards', 'squad', 'sbcs', 'targets', 'meta', 'packs']
 const tabFromHash = () => {
   const h = location.hash.slice(1)
   if (h.startsWith('sbc-')) return 'sbcs'
+  if (h.startsWith('team-')) return 'meta'
   return TABS.includes(h) ? h : null
 }
 const detailFromHash = () => (location.hash.startsWith('#sbc-') ? decodeURIComponent(location.hash.slice(5)) : null)
+const teamFromHash = () => (location.hash.startsWith('#team-') ? decodeURIComponent(location.hash.slice(6)) : null)
 
 export default function App() {
   const [cardsData, setCardsData] = useState(undefined) // undefined = loading, null = missing
@@ -60,6 +63,7 @@ export default function App() {
   const [saveStatus, setSaveStatus] = useState({ state: 'idle' })
   const [tab, setTabState] = useState(() => tabFromHash() ?? 'cards')
   const [detailId, setDetailId] = useState(() => detailFromHash())
+  const [teamId, setTeamId] = useState(() => teamFromHash())
   const [filters, setFilters] = useState(DEFAULT_FILTERS)
   const [limit, setLimit] = useState(PAGE)
   const [editMode, setEditMode] = useState(false)
@@ -67,10 +71,11 @@ export default function App() {
   const saveChain = useRef(Promise.resolve())
   const importInput = useRef(null)
 
-  // #sbc-<id> opens an SBC's page; #<tab> opens a tab. Back / forward work.
+  // #sbc-<id> opens an SBC's page, #team-<id> a meta team's page; #<tab> opens a tab. Back / forward work.
   useEffect(() => {
     const onHash = () => {
       setDetailId(detailFromHash())
+      setTeamId(teamFromHash())
       const t = tabFromHash()
       if (t) setTabState(t)
       window.scrollTo(0, 0)
@@ -82,6 +87,7 @@ export default function App() {
     if (location.hash !== `#${t}`) location.hash = t
     setTabState(t)
     setDetailId(null)
+    setTeamId(null)
   }, [])
 
   useEffect(() => {
@@ -329,7 +335,11 @@ export default function App() {
         <p className="save-status error" role="alert">Save failed: {saveStatus.message}</p>
       )}
 
-      {detailId ? (
+      {teamId ? (
+        <main>
+          <TeamDetail teamId={teamId} allCards={allCards} ownedCards={ownedCards} />
+        </main>
+      ) : detailId ? (
         <main>
           {collection.sbcs.find((s) => s.id === detailId) ? (
             <SbcDetail
