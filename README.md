@@ -11,10 +11,26 @@ Tabs:
   - Click an SBC's name or "View plan" to open its page (`#sbc-<id>`, so ctrl-click opens it in a new tab). It describes how to complete each squad, lists what to buy (rating, quantity, price), which of your club players to use, and which players were kept out and why.
   - Players the planner never uses: players in your Web App squads (`data/ea-squads.json`, all six squads by default, or only the active one), squads saved in the Squad builder, players on your Meta list or Squad targets, cards rated 85+, and promo cards rated 84+. You can change these in the "Never use" bar. A club card is only used if that's cheaper than buying fodder.
   - The total at the top shares club players across SBCs in order of expiry, so nobody is counted twice.
-  - Prices and scores live in `data/prices.json` (sampled from the Web App transfer market). Edit `priceByRating` if the market moves.
+  - Market prices and scores by rating live in `data/prices.json` (sampled from the Web App transfer market). Edit `priceByRating` if the market moves. Your own cards' exact scores and values are in `data/club-prices.json` (local only).
 - **Squad targets**: cards that would improve your team, with price, priority and who they replace. The tab shows the coins you still need.
 - **Meta cards**: the cards everyone is using, in S / A / B tiers with a source link. "Add to targets" copies one into Squad targets, and "In club" means you already own a card of that player.
 - **Packs opened**: a log of your pack pulls.
+
+Live site: https://anish0714.github.io/fc27-collection/ (deployed from `main` by `.github/workflows/deploy.yml`).
+
+## Personal data stays local
+
+Your own data is git-ignored and never pushed:
+
+| File | What's in it |
+| --- | --- |
+| `data/my-collection.json` | Cards you own, promo cards, packs, SBCs, targets, saved squads |
+| `data/club-export.json` | Snapshot of your club from the Web App |
+| `data/ea-squads.json` | Your Web App squads |
+| `data/sbc-export.json` | Snapshot of the Web App SBC hub |
+| `data/club-prices.json` | SBC score and market value of each card in your club |
+
+The app builds without them. The public site starts from `data/default-collection.json` (just the Meta cards list) and saves anything you add in your browser's localStorage. Use **Export** / **Import** to move data between your PC and the site.
 
 ## Importing your club from the FC 27 Web App
 
@@ -44,7 +60,7 @@ npm run fetch-cards   # downloads ~20,000 cards into public/cards.json
 npm run dev           # http://localhost:5173
 ```
 
-Re-run `npm run fetch-cards` whenever EA updates ratings. `public/cards.json` is git-ignored.
+Re-run `npm run fetch-cards` whenever EA updates ratings, then commit `public/cards.json` so the live site picks up the new ratings.
 
 ### Why a fetch script?
 
