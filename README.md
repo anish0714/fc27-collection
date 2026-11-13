@@ -13,24 +13,33 @@ Tabs:
   - The total at the top shares club players across SBCs in order of expiry, so nobody is counted twice.
   - Market prices and scores by rating live in `data/prices.json` (sampled from the Web App transfer market). Edit `priceByRating` if the market moves. Your own cards' exact scores and values are in `data/club-prices.json` (local only).
 - **Squad targets**: cards that would improve your team, with price, priority and who they replace. The tab shows the coins you still need.
-- **Meta cards**: the cards everyone is using, in S / A / B tiers with a source link. "Add to targets" copies one into Squad targets, and "In club" means you already own a card of that player.
+- **Meta**: two parts.
+  - **Meta teams** (`data/meta-teams.json`): five competitive setups (4-2-1-3, 4-4-1-1, Narrow 4-1-2-1-2, 4-2-2-2 and 4-3-3 (4)). Each has the tactics (build-up style, defensive line), the role for every position and the meta players for each slot. Your own cards are used where you have them. "Build this team" puts it on the Squad builder pitch with the roles shown on hover. Sources: [Dexerto](https://www.dexerto.com/wikis/ea-fc-27/best-formations-and-custom-tactics/) for tactics and roles, [U7BUY](https://www.u7buy.com/blog/fc-27-meta-players/) for players.
+  - **Meta cards**: the cards everyone is using, in S / A / B tiers with a source link. "Add to targets" copies one into Squad targets, and "In club" means you already own a card of that player.
 - **Packs opened**: a log of your pack pulls.
 
 Live site: https://anish0714.github.io/fc27-collection/ (deployed from `main` by `.github/workflows/deploy.yml`).
 
-## Personal data stays local
+## What's public and what stays local
 
-Your own data is git-ignored and never pushed:
+The live site shows your **club cards** (owned base cards and promo cards, with their SBC score and value) and your **SBCs and progress**, so it works like the local app. To refresh what the site shows:
+
+```bash
+npm run publish-data   # writes data/default-collection.json from your collection
+```
+
+Then commit `data/default-collection.json` and `data/club-prices.json` and merge to `main`. Visitors' browsers pick up the new club cards and SBCs automatically and keep anything they added themselves.
+
+These stay on this PC (git-ignored):
 
 | File | What's in it |
 | --- | --- |
-| `data/my-collection.json` | Cards you own, promo cards, packs, SBCs, targets, saved squads |
-| `data/club-export.json` | Snapshot of your club from the Web App |
+| `data/my-collection.json` | Your full collection, including targets, saved squads and packs |
 | `data/ea-squads.json` | Your Web App squads |
-| `data/sbc-export.json` | Snapshot of the Web App SBC hub |
-| `data/club-prices.json` | SBC score and market value of each card in your club |
+| `data/club-export.json` | Raw club snapshot from the Web App |
+| `data/sbc-export.json` | Raw SBC hub snapshot |
 
-The app builds without them. The public site starts from `data/default-collection.json` (just the Meta cards list) and saves anything you add in your browser's localStorage. Use **Export** / **Import** to move data between your PC and the site.
+Without `data/ea-squads.json` the site's SBC planner can't keep your squad players out, so it relies on the other rules (rating limits, Meta list).
 
 ## Importing your club from the FC 27 Web App
 

@@ -67,7 +67,25 @@ export async function loadCollection() {
   } catch {
     // no dev server: fall through to localStorage
   }
-  return { collection: normalizeCollection(readLocal() ?? bundled), mode: 'local' }
+  return { collection: normalizeCollection(mergePublished(readLocal(), bundled)), mode: 'local' }
+}
+
+// On the static site, browser storage may hold an older copy. When a newer published
+// collection ships, take its club cards and SBCs, and keep what this browser added itself.
+function mergePublished(local, published) {
+  if (!local) return published
+  if (!published?.publishedAt || local.publishedAt === published.publishedAt) return local
+  const byId = (list) => new Map((list ?? []).map((x) => [x.id, x]))
+  const pubSbcs = byId(published.sbcs)
+  const pubMeta = byId(published.meta)
+  return {
+    ...local,
+    publishedAt: published.publishedAt,
+    owned: published.owned ?? [],
+    customCards: published.customCards ?? [],
+    sbcs: [...(published.sbcs ?? []), ...(local.sbcs ?? []).filter((s) => !pubSbcs.has(s.id))],
+    meta: [...(local.meta ?? []).filter((m) => !pubMeta.has(m.id)), ...(published.meta ?? []).map((m) => byId(local.meta).get(m.id) ?? m)],
+  }
 }
 
 export async function saveCollection(collection, mode) {

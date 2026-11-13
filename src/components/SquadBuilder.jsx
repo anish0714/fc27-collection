@@ -1,6 +1,7 @@
 import { useDeferredValue, useEffect, useMemo, useState } from 'react'
 import { foldText, initials } from '../lib/cards.js'
 import { newId } from '../lib/collection.js'
+import { META_TEAMS } from '../lib/metaTeams.js'
 import { FORMATIONS, autoBuild, canPlay, chemistry, checkRequirement, playerKey, requirementParts, slotsOf, teamRating } from '../lib/squad.js'
 
 const DRAFT_KEY = 'fc27-squad-draft'
@@ -28,7 +29,7 @@ function ChemDots({ value }) {
   )
 }
 
-function SlotCard({ slot, card, chem, selected, locked, onClick }) {
+function SlotCard({ slot, card, chem, selected, locked, onClick, role }) {
   const outOfPos = card && !canPlay(card, slot.pos)
   return (
     <button
@@ -36,6 +37,7 @@ function SlotCard({ slot, card, chem, selected, locked, onClick }) {
       className={`slot ${card ? `filled tier-${card.tier}` : 'empty'} ${selected ? 'selected' : ''}`}
       style={{ left: `${slot.x}%`, top: `${slot.y}%` }}
       onClick={onClick}
+      title={role ? `${slot.pos}: ${role}` : undefined}
       aria-label={card ? `${slot.pos}: ${card.name}, ${card.rating}, ${chem} chemistry` : `Empty ${slot.pos} slot`}
       aria-pressed={selected}
     >
@@ -156,6 +158,7 @@ export default function SquadBuilder({ allCards, ownedCards, ownedKeys, lookup, 
   const checks = reqLine ? requirementParts(reqLine.text).map((t) => checkRequirement(t, cards, rating, chem.total)) : []
 
   const selectedCard = selected != null ? cards[selected] : null
+  const metaTeam = draft.teamId ? META_TEAMS.find((t) => t.id === draft.teamId && t.formation === draft.formation) : null
 
   return (
     <div className="builder">
@@ -181,6 +184,7 @@ export default function SquadBuilder({ allCards, ownedCards, ownedKeys, lookup, 
               chem={chem.perSlot[i]}
               selected={selected === i}
               locked={locked.has(i)}
+              role={draft.roles?.[i]}
               onClick={() => setSelected(selected === i ? null : i)}
             />
           ))}
@@ -191,7 +195,10 @@ export default function SquadBuilder({ allCards, ownedCards, ownedKeys, lookup, 
         {selected != null ? (
           <section className="side-panel picker">
             <header>
-              <h3>{selectedCard ? `Replace ${selectedCard.name}` : `Pick a ${pickerPos}`}</h3>
+              <h3>
+                {selectedCard ? `Replace ${selectedCard.name}` : `Pick a ${pickerPos}`}
+                {draft.roles?.[selected] && <span className="muted small"> · {draft.roles[selected]}</span>}
+              </h3>
               <button type="button" className="link" onClick={() => setSelected(null)}>Close</button>
             </header>
             {selectedCard && (
@@ -237,10 +244,16 @@ export default function SquadBuilder({ allCards, ownedCards, ownedKeys, lookup, 
           <>
             <section className="side-panel">
               <label className="field">Formation
-                <select id="formation" value={draft.formation} onChange={(e) => setDraft((d) => ({ ...d, formation: e.target.value }))}>
+                <select id="formation" value={draft.formation} onChange={(e) => setDraft((d) => ({ ...d, formation: e.target.value, roles: undefined, teamId: undefined }))}>
                   {Object.keys(FORMATIONS).map((f) => <option key={f}>{f}</option>)}
                 </select>
               </label>
+              {metaTeam && (
+                <div className="meta-team-note small">
+                  <strong>{metaTeam.name}</strong>
+                  <span className="muted">Build-up {metaTeam.tactics.buildUp} · Defensive line {metaTeam.tactics.defensiveLine}. Hover a player to see their role.</span>
+                </div>
+              )}
               <div className="field">
                 <span>Auto-build from your club</span>
                 <div className="segmented" role="radiogroup" aria-label="Auto-build goal">

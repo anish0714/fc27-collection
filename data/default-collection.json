@@ -1,8 +1,1921 @@
 {
-  "owned": [],
-  "customCards": [],
+  "publishedAt": "2026-11-13T22:27:25.407Z",
+  "owned": [
+    {
+      "id": 192119,
+      "qty": 1
+    },
+    {
+      "id": 241486,
+      "qty": 1
+    },
+    {
+      "id": 245037,
+      "qty": 1
+    },
+    {
+      "id": 268889,
+      "qty": 1
+    },
+    {
+      "id": 212622,
+      "qty": 1
+    },
+    {
+      "id": 252371,
+      "qty": 1
+    },
+    {
+      "id": 78012,
+      "qty": 1
+    },
+    {
+      "id": 256516,
+      "qty": 1
+    },
+    {
+      "id": 256790,
+      "qty": 1
+    },
+    {
+      "id": 243812,
+      "qty": 1
+    },
+    {
+      "id": 158023,
+      "qty": 1
+    },
+    {
+      "id": 261855,
+      "qty": 1
+    },
+    {
+      "id": 248243,
+      "qty": 1
+    },
+    {
+      "id": 246420,
+      "qty": 1
+    },
+    {
+      "id": 246191,
+      "qty": 1
+    },
+    {
+      "id": 236772,
+      "qty": 1
+    },
+    {
+      "id": 240717,
+      "qty": 1
+    },
+    {
+      "id": 241084,
+      "qty": 1
+    },
+    {
+      "id": 251852,
+      "qty": 1
+    },
+    {
+      "id": 233731,
+      "qty": 1
+    },
+    {
+      "id": 232580,
+      "qty": 1
+    },
+    {
+      "id": 220901,
+      "qty": 1
+    },
+    {
+      "id": 248822,
+      "qty": 1
+    },
+    {
+      "id": 243715,
+      "qty": 1
+    },
+    {
+      "id": 258980,
+      "qty": 1
+    },
+    {
+      "id": 229558,
+      "qty": 1
+    },
+    {
+      "id": 224232,
+      "qty": 1
+    },
+    {
+      "id": 232075,
+      "qty": 1
+    },
+    {
+      "id": 207865,
+      "qty": 1
+    },
+    {
+      "id": 266928,
+      "qty": 1
+    },
+    {
+      "id": 239818,
+      "qty": 1
+    },
+    {
+      "id": 246669,
+      "qty": 1
+    },
+    {
+      "id": 257001,
+      "qty": 1
+    },
+    {
+      "id": 278046,
+      "qty": 1
+    },
+    {
+      "id": 239231,
+      "qty": 1
+    },
+    {
+      "id": 245879,
+      "qty": 1
+    },
+    {
+      "id": 246104,
+      "qty": 1
+    },
+    {
+      "id": 241236,
+      "qty": 1
+    },
+    {
+      "id": 208128,
+      "qty": 1
+    },
+    {
+      "id": 277954,
+      "qty": 1
+    },
+    {
+      "id": 244260,
+      "qty": 1
+    },
+    {
+      "id": 238074,
+      "qty": 1
+    },
+    {
+      "id": 237692,
+      "qty": 1
+    },
+    {
+      "id": 229476,
+      "qty": 1
+    },
+    {
+      "id": 235794,
+      "qty": 1
+    },
+    {
+      "id": 263011,
+      "qty": 1
+    },
+    {
+      "id": 253124,
+      "qty": 1
+    },
+    {
+      "id": 270673,
+      "qty": 1
+    },
+    {
+      "id": 272505,
+      "qty": 1
+    },
+    {
+      "id": 266384,
+      "qty": 1
+    },
+    {
+      "id": 267223,
+      "qty": 1
+    },
+    {
+      "id": 242964,
+      "qty": 1
+    },
+    {
+      "id": 277031,
+      "qty": 1
+    },
+    {
+      "id": 263578,
+      "qty": 1
+    },
+    {
+      "id": 264388,
+      "qty": 1
+    },
+    {
+      "id": 239301,
+      "qty": 1
+    },
+    {
+      "id": 213516,
+      "qty": 1
+    },
+    {
+      "id": 257711,
+      "qty": 1
+    },
+    {
+      "id": 247789,
+      "qty": 1
+    },
+    {
+      "id": 262460,
+      "qty": 1
+    },
+    {
+      "id": 253149,
+      "qty": 1
+    },
+    {
+      "id": 269136,
+      "qty": 1
+    },
+    {
+      "id": 227344,
+      "qty": 1
+    },
+    {
+      "id": 235149,
+      "qty": 1
+    },
+    {
+      "id": 236640,
+      "qty": 1
+    },
+    {
+      "id": 229725,
+      "qty": 1
+    },
+    {
+      "id": 228935,
+      "qty": 1
+    }
+  ],
+  "customCards": [
+    {
+      "id": "club-50413511",
+      "name": "Xavi Espart",
+      "version": "Future Stars",
+      "rating": 85,
+      "position": "LB",
+      "altPositions": [
+        "CDM",
+        "CM",
+        "RB"
+      ],
+      "gender": "M",
+      "club": "FC Barcelona",
+      "clubImg": "https://drop-assets.ea.com/images/5VXhqALaBzgvb2YG8iJxlq/990024f3e3ecc9e6c37eae41ebef86bd/l241.png",
+      "nation": "Spain",
+      "nationImg": "https://drop-assets.ea.com/images/Kv8okAYMsDbB3ZKbxrAXw/9d30c88d16a4c85002f35c6af412c6f7/f_45.png",
+      "league": "LALIGA EA SPORTS",
+      "img": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p81863.png?padding=0.7",
+      "stats": {
+        "pac": 88,
+        "sho": 64,
+        "pas": 82,
+        "dri": 84,
+        "def": 82,
+        "phy": 74
+      }
+    },
+    {
+      "id": "club-50596300",
+      "name": "Bradley Barcola",
+      "version": "Base",
+      "rating": 85,
+      "position": "LW",
+      "altPositions": [
+        "RW",
+        "LM",
+        "RM"
+      ],
+      "gender": "M",
+      "club": "Paris SG",
+      "clubImg": "https://drop-assets.ea.com/images/2QwnhmHh5K7bjkfZAF7ZCi/7c53874542fb5c606ff810a4b1f6b88b/l73.png",
+      "nation": "France",
+      "nationImg": "https://drop-assets.ea.com/images/3ECAQzhfgSLWRf9IIHB6G8/7e235a7b2f93c1f73db7f89dc03b3657/f_18.png",
+      "league": "Ligue 1 McDonald's",
+      "img": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p264652.png?padding=0.7",
+      "stats": {
+        "pac": 92,
+        "sho": 76,
+        "pas": 78,
+        "dri": 84,
+        "def": 39,
+        "phy": 67
+      }
+    },
+    {
+      "id": "club-67362886",
+      "name": "Nick Woltemade",
+      "version": "Ultimate Scream",
+      "rating": 85,
+      "position": "CAM",
+      "altPositions": [
+        "ST"
+      ],
+      "gender": "M",
+      "club": "Newcastle Utd",
+      "clubImg": "https://drop-assets.ea.com/images/69fXoaX4p9zFwKaZYoNtNX/14d86649a9b5a3f7e876cc3d46357b5d/l13.png",
+      "nation": "Germany",
+      "nationImg": "https://drop-assets.ea.com/images/6IIMMGk0Uj1rcZ6DSHTpLL/93f95b602dc62594104f418c8f80ebb3/f_21.png",
+      "league": "Premier League",
+      "img": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p254022.png?padding=0.7",
+      "stats": {
+        "pac": 83,
+        "sho": 84,
+        "pas": 85,
+        "dri": 86,
+        "def": 47,
+        "phy": 84
+      }
+    },
+    {
+      "id": "club-183277",
+      "name": "Eden Hazard",
+      "version": "Base Hero",
+      "rating": 89,
+      "position": "LM",
+      "altPositions": [],
+      "gender": "M",
+      "club": "",
+      "clubImg": "",
+      "nation": "",
+      "nationImg": "",
+      "league": "",
+      "img": "",
+      "stats": {
+        "pac": 91,
+        "sho": 84,
+        "pas": 85,
+        "dri": 93,
+        "def": 37,
+        "phy": 69
+      }
+    },
+    {
+      "id": "club-50520215",
+      "name": "Pierre-Emerick Aubameyang",
+      "version": "Destined for Glory",
+      "rating": 86,
+      "position": "ST",
+      "altPositions": [],
+      "gender": "M",
+      "club": "RC Deportivo",
+      "clubImg": "https://drop-assets.ea.com/images/73l28GYWv26WmXONG7VMRy/26efbc4f6d7aff91387d0083de03cd2e/l242.png",
+      "nation": "Gabon",
+      "nationImg": "https://drop-assets.ea.com/images/55GT4qTlxAxrNcuMpjjWV5/a4515bb031e39a8429c665b0d321810f/f_115.png",
+      "league": "LALIGA EA SPORTS",
+      "img": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p188567.png?padding=0.7",
+      "stats": {
+        "pac": 87,
+        "sho": 86,
+        "pas": 78,
+        "dri": 84,
+        "def": 43,
+        "phy": 73
+      }
+    },
+    {
+      "id": "club-50578738",
+      "name": "Enzo Fernández",
+      "version": "Base",
+      "rating": 86,
+      "position": "CM",
+      "altPositions": [
+        "CDM",
+        "CAM"
+      ],
+      "gender": "M",
+      "club": "Chelsea",
+      "clubImg": "https://drop-assets.ea.com/images/6T0vfhzb3y9R6YVtmVwYcD/b99723a87536e30979c7cbdb8bba9310/l5.png",
+      "nation": "Argentina",
+      "nationImg": "https://drop-assets.ea.com/images/4xMXjEt7CFJ6JENYeG45Sk/836d733dc1642c5e4ab3338d91481436/f_52.png",
+      "league": "Premier League",
+      "img": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p247090.png?padding=0.7",
+      "stats": {
+        "pac": 68,
+        "sho": 78,
+        "pas": 86,
+        "dri": 83,
+        "def": 74,
+        "phy": 76
+      }
+    },
+    {
+      "id": "club-50609822",
+      "name": "Julian Hall",
+      "version": "Future Stars",
+      "rating": 85,
+      "position": "ST",
+      "altPositions": [
+        "LM"
+      ],
+      "gender": "M",
+      "club": "Red Bulls",
+      "clubImg": "https://drop-assets.ea.com/images/5f7uIjuRx6ua3nQqfm7qZr/8e8274e586ad7e6e0df6dd7e3f085e72/l689.png",
+      "nation": "United States",
+      "nationImg": "https://drop-assets.ea.com/images/7ZVadlJQIutRH5P85wr76/c2456a2d76146d19f98c2c3071136dcf/f_95.png",
+      "league": "MLS",
+      "img": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p278174.png?padding=0.7",
+      "stats": {
+        "pac": 89,
+        "sho": 83,
+        "pas": 70,
+        "dri": 84,
+        "def": 44,
+        "phy": 86
+      },
+      "loan": true
+    },
+    {
+      "id": "club-50534459",
+      "name": "Emiliano Martínez",
+      "version": "Base",
+      "rating": 85,
+      "position": "GK",
+      "altPositions": [],
+      "gender": "M",
+      "club": "Aston Villa",
+      "clubImg": "https://drop-assets.ea.com/images/57c0ppYsEA88xL0gxqce8K/99605df97c6a96ea3b6e8a424c217af0/l2.png",
+      "nation": "Argentina",
+      "nationImg": "https://drop-assets.ea.com/images/4xMXjEt7CFJ6JENYeG45Sk/836d733dc1642c5e4ab3338d91481436/f_52.png",
+      "league": "Premier League",
+      "img": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p202811.png?padding=0.7",
+      "stats": {
+        "pac": 83,
+        "sho": 81,
+        "pas": 82,
+        "dri": 85,
+        "def": 50,
+        "phy": 85
+      }
+    },
+    {
+      "id": "club-50565158",
+      "name": "Tahith Chong",
+      "version": "Ultimate Scream",
+      "rating": 85,
+      "position": "RM",
+      "altPositions": [
+        "CM",
+        "RW",
+        "CAM"
+      ],
+      "gender": "M",
+      "club": "Sheffield Utd",
+      "clubImg": "https://drop-assets.ea.com/images/3QhayzKjMV2yOdihydTnVZ/c272cce245fae380f220f4c9cca689f1/l1794.png",
+      "nation": "Curaçao",
+      "nationImg": "https://drop-assets.ea.com/images/2odRGVAk3KGQ0iMduOe1Ut/fd21d1a252b019a9632fa64dd943c5a3/f_85.png",
+      "league": "EFL Championship",
+      "img": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p233510.png?padding=0.7",
+      "stats": {
+        "pac": 89,
+        "sho": 81,
+        "pas": 83,
+        "dri": 87,
+        "def": 64,
+        "phy": 76
+      }
+    },
+    {
+      "id": "club-50593786",
+      "name": "Castello Lukeba",
+      "version": "Ultimate Scream",
+      "rating": 85,
+      "position": "LB",
+      "altPositions": [
+        "CB"
+      ],
+      "gender": "M",
+      "club": "RB Leipzig",
+      "clubImg": "https://drop-assets.ea.com/images/1EoW6b2VkhiP3S0vqikd9s/f181f899a2037360f70a9a8aba18af30/l112172.png",
+      "nation": "France",
+      "nationImg": "https://drop-assets.ea.com/images/3ECAQzhfgSLWRf9IIHB6G8/7e235a7b2f93c1f73db7f89dc03b3657/f_18.png",
+      "league": "Bundesliga",
+      "img": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p262138.png?padding=0.7",
+      "stats": {
+        "pac": 84,
+        "sho": 46,
+        "pas": 78,
+        "dri": 84,
+        "def": 86,
+        "phy": 80
+      }
+    },
+    {
+      "id": "club-50583458",
+      "name": "Brian Brobbey",
+      "version": "UEFA Europa League RTTK",
+      "rating": 85,
+      "position": "ST",
+      "altPositions": [],
+      "gender": "M",
+      "club": "Sunderland",
+      "clubImg": "https://drop-assets.ea.com/images/6ja62Iw2LyY8cVrud4aSHi/aa6c15e4a2ceed66f92099108bea9dfa/l106.png",
+      "nation": "Holland",
+      "nationImg": "https://drop-assets.ea.com/images/7LmdSUm2Ge4fzqcz0NElvq/d272142c80713dcf0e5ec0a47232aeee/f_34.png",
+      "league": "Premier League",
+      "img": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p251810.png?padding=0.7",
+      "stats": {
+        "pac": 86,
+        "sho": 85,
+        "pas": 70,
+        "dri": 81,
+        "def": 35,
+        "phy": 90
+      }
+    },
+    {
+      "id": "club-50602057",
+      "name": "Sávio Sávio",
+      "version": "Ones to Watch",
+      "rating": 84,
+      "position": "RW",
+      "altPositions": [
+        "LW",
+        "RM",
+        "LM"
+      ],
+      "gender": "M",
+      "club": "Manchester City",
+      "clubImg": "https://drop-assets.ea.com/images/4asmNLic4aQn6cjlEg1t5u/88bea3ddd6c1f620bbf813041f248685/l10.png",
+      "nation": "Brazil",
+      "nationImg": "https://drop-assets.ea.com/images/1zdNn1R9tRlfQ3lsbAOecD/a606f742789b6306363383a6e20dd003/f_54.png",
+      "league": "Premier League",
+      "img": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p270409.png?padding=0.7",
+      "stats": {
+        "pac": 91,
+        "sho": 77,
+        "pas": 80,
+        "dri": 88,
+        "def": 38,
+        "phy": 57
+      }
+    },
+    {
+      "id": "club-50606840",
+      "name": "Luka Vušković",
+      "version": "Ones to Watch",
+      "rating": 84,
+      "position": "CB",
+      "altPositions": [],
+      "gender": "M",
+      "club": "Brighton",
+      "clubImg": "https://drop-assets.ea.com/images/1mFLMjuFkxQjbRaTLKZ8Gm/277b9eb6d29d37064d1d82063b06f681/l1808.png",
+      "nation": "Croatia",
+      "nationImg": "https://drop-assets.ea.com/images/4ZYNK06L8ZkJTrdtSby4NW/eb42cc852fc74ea3d3f5b8904fb5194f/f_10.png",
+      "league": "Premier League",
+      "img": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p275192.png?padding=0.7",
+      "stats": {
+        "pac": 61,
+        "sho": 66,
+        "pas": 65,
+        "dri": 68,
+        "def": 86,
+        "phy": 85
+      }
+    },
+    {
+      "id": "club-50605554",
+      "name": "Renato Veiga",
+      "version": "Destined for Glory",
+      "rating": 84,
+      "position": "CB",
+      "altPositions": [],
+      "gender": "M",
+      "club": "Villarreal CF",
+      "clubImg": "https://drop-assets.ea.com/images/xvk9pCQTX74mWG8EjcgYU/f631ffd2c7ac06bd43f2547fc44463c4/l483.png",
+      "nation": "Portugal",
+      "nationImg": "https://drop-assets.ea.com/images/3CxRD7XqY2NSlZ3628fY4S/abf38470644ee334e6a425b9272f7767/f_38.png",
+      "league": "LALIGA EA SPORTS",
+      "img": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p273906.png?padding=0.7",
+      "stats": {
+        "pac": 80,
+        "sho": 66,
+        "pas": 77,
+        "dri": 78,
+        "def": 83,
+        "phy": 87
+      }
+    },
+    {
+      "id": "club-50592897",
+      "name": "Édouard Michut",
+      "version": "Squad Foundations",
+      "rating": 84,
+      "position": "CDM",
+      "altPositions": [
+        "CM"
+      ],
+      "gender": "M",
+      "club": "Fortuna Sittard",
+      "clubImg": "https://drop-assets.ea.com/images/7016gLjhLCxBC1nluU3u6r/24ca4f468f0e40989e0b93968c42d1c6/634.png",
+      "nation": "France",
+      "nationImg": "https://drop-assets.ea.com/images/3ECAQzhfgSLWRf9IIHB6G8/7e235a7b2f93c1f73db7f89dc03b3657/f_18.png",
+      "league": "Eredivisie",
+      "img": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p261249.png?padding=0.7",
+      "stats": {
+        "pac": 79,
+        "sho": 70,
+        "pas": 81,
+        "dri": 84,
+        "def": 76,
+        "phy": 77
+      }
+    },
+    {
+      "id": "club-50588596",
+      "name": "Christos Tzolis",
+      "version": "Ones to Watch",
+      "rating": 84,
+      "position": "LW",
+      "altPositions": [
+        "LM"
+      ],
+      "gender": "M",
+      "club": "Arsenal",
+      "clubImg": "https://drop-assets.ea.com/images/2ng99bvkwKaA228PJje39i/09d2df89a78377d3f8d3f78469cbadc9/l1.png",
+      "nation": "Greece",
+      "nationImg": "https://drop-assets.ea.com/images/6zI3f01SVKRJFIel1ad4BC/f85935df3b415f4a3f7320e8f78e398f/f_22.png",
+      "league": "Premier League",
+      "img": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p256948.png?padding=0.7",
+      "stats": {
+        "pac": 84,
+        "sho": 82,
+        "pas": 81,
+        "dri": 85,
+        "def": 41,
+        "phy": 74
+      }
+    },
+    {
+      "id": "club-50596683",
+      "name": "Elisa Senß",
+      "version": "Ones to Watch",
+      "rating": 84,
+      "position": "CM",
+      "altPositions": [
+        "CDM",
+        "CAM"
+      ],
+      "gender": "W",
+      "club": "Real Madrid",
+      "clubImg": "https://drop-assets.ea.com/images/33MkKSBWnQ6JK05gTK7Uut/9f1dc63b98a78eec04f43fb28ec1ab3a/l116326.png",
+      "nation": "Germany",
+      "nationImg": "https://drop-assets.ea.com/images/6IIMMGk0Uj1rcZ6DSHTpLL/93f95b602dc62594104f418c8f80ebb3/f_21.png",
+      "league": "Liga F Moeve",
+      "img": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p265035.png?padding=0.7",
+      "stats": {
+        "pac": 83,
+        "sho": 72,
+        "pas": 79,
+        "dri": 85,
+        "def": 78,
+        "phy": 72
+      }
+    },
+    {
+      "id": "club-50583602",
+      "name": "Crysencio Summerville",
+      "version": "Ones to Watch",
+      "rating": 84,
+      "position": "LM",
+      "altPositions": [
+        "RW",
+        "LW",
+        "RM"
+      ],
+      "gender": "M",
+      "club": "Al Hilal",
+      "clubImg": "https://drop-assets.ea.com/images/S6sbDN9mfGaVn2VJDekYR/c6f580c98a0d614b0b308a89a241c6ab/l605.png",
+      "nation": "Holland",
+      "nationImg": "https://drop-assets.ea.com/images/7LmdSUm2Ge4fzqcz0NElvq/d272142c80713dcf0e5ec0a47232aeee/f_34.png",
+      "league": "ROSHN Saudi League",
+      "img": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p251954.png?padding=0.7",
+      "stats": {
+        "pac": 91,
+        "sho": 81,
+        "pas": 76,
+        "dri": 87,
+        "def": 44,
+        "phy": 61
+      }
+    },
+    {
+      "id": "club-50407276",
+      "name": "Fer López",
+      "version": "Future Stars",
+      "rating": 84,
+      "position": "CAM",
+      "altPositions": [
+        "CM",
+        "RM",
+        "RW"
+      ],
+      "gender": "M",
+      "club": "Wolves",
+      "clubImg": "https://drop-assets.ea.com/images/1q03RljtIaCoLLJLf7pMHZ/3bdb90117f4cbefa94f504140b4d591f/110.png",
+      "nation": "Spain",
+      "nationImg": "https://drop-assets.ea.com/images/Kv8okAYMsDbB3ZKbxrAXw/9d30c88d16a4c85002f35c6af412c6f7/f_45.png",
+      "league": "EFL Championship",
+      "img": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p75628.png?padding=0.7",
+      "stats": {
+        "pac": 84,
+        "sho": 82,
+        "pas": 84,
+        "dri": 86,
+        "def": 50,
+        "phy": 73
+      }
+    },
+    {
+      "id": "club-50403818",
+      "name": "Ilhan Fakili",
+      "version": "Future Stars",
+      "rating": 84,
+      "position": "LM",
+      "altPositions": [
+        "RM",
+        "LW",
+        "RW"
+      ],
+      "gender": "M",
+      "club": "Beşiktaş",
+      "clubImg": "https://drop-assets.ea.com/images/Sx4dfrxgLrl3y1lm5Wj8p/fe2d92ed674ea49ea5ee3ac8d9842897/l327.png",
+      "nation": "Turkey",
+      "nationImg": "https://drop-assets.ea.com/images/501PnaP87pzjR8dKEQ20OT/7f0fd5c896b732a094222cbf0560b4c2/f_48.png",
+      "league": "Trendyol Süper Lig",
+      "img": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p72170.png?padding=0.7",
+      "stats": {
+        "pac": 88,
+        "sho": 79,
+        "pas": 78,
+        "dri": 87,
+        "def": 40,
+        "phy": 76
+      }
+    },
+    {
+      "id": "club-50611347",
+      "name": "Claire Hutton",
+      "version": "Future Stars",
+      "rating": 84,
+      "position": "CDM",
+      "altPositions": [
+        "CM",
+        "CB"
+      ],
+      "gender": "W",
+      "club": "Bay FC",
+      "clubImg": "https://drop-assets.ea.com/images/6TMG9GVVjI5uj4uGkKI6Qn/ef9c7c616f16754e6605c002a311233b/l131477.png",
+      "nation": "United States",
+      "nationImg": "https://drop-assets.ea.com/images/7ZVadlJQIutRH5P85wr76/c2456a2d76146d19f98c2c3071136dcf/f_95.png",
+      "league": "NWSL",
+      "img": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p279699.png?padding=0.7",
+      "stats": {
+        "pac": 78,
+        "sho": 72,
+        "pas": 78,
+        "dri": 84,
+        "def": 82,
+        "phy": 79
+      }
+    },
+    {
+      "id": "club-50607933",
+      "name": "Wieke Kaptein",
+      "version": "Future Stars",
+      "rating": 84,
+      "position": "CAM",
+      "altPositions": [
+        "CM",
+        "CDM"
+      ],
+      "gender": "W",
+      "club": "Chelsea",
+      "clubImg": "https://drop-assets.ea.com/images/3vni1UAimBV1Ffc3NbgIJp/40f6d3391ea7b8a43f79ce4c118a8ca2/l116010.png",
+      "nation": "Holland",
+      "nationImg": "https://drop-assets.ea.com/images/7LmdSUm2Ge4fzqcz0NElvq/d272142c80713dcf0e5ec0a47232aeee/f_34.png",
+      "league": "Barclays WSL",
+      "img": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p276285.png?padding=0.7",
+      "stats": {
+        "pac": 79,
+        "sho": 80,
+        "pas": 82,
+        "dri": 84,
+        "def": 78,
+        "phy": 79
+      }
+    },
+    {
+      "id": "club-50403654",
+      "name": "Milton Delgado",
+      "version": "Future Stars",
+      "rating": 84,
+      "position": "CM",
+      "altPositions": [
+        "CDM"
+      ],
+      "gender": "M",
+      "club": "Boca Juniors",
+      "clubImg": "https://drop-assets.ea.com/images/4v42cau4ZlAgfPnWHaQSKn/a9fa2af475b4b779ed13870c7f1ec66b/l1877.png",
+      "nation": "Argentina",
+      "nationImg": "https://drop-assets.ea.com/images/4xMXjEt7CFJ6JENYeG45Sk/836d733dc1642c5e4ab3338d91481436/f_52.png",
+      "league": "LPF",
+      "img": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p72006.png?padding=0.7",
+      "stats": {
+        "pac": 82,
+        "sho": 67,
+        "pas": 77,
+        "dri": 84,
+        "def": 82,
+        "phy": 81
+      }
+    },
+    {
+      "id": "club-50531562",
+      "name": "Allan Allan",
+      "version": "FC Heritage",
+      "rating": 84,
+      "position": "CDM",
+      "altPositions": [
+        "CM"
+      ],
+      "gender": "M",
+      "club": "Botafogo",
+      "clubImg": "https://drop-assets.ea.com/images/3UEXYNHHPv9HlVcVPcUSGF/3a80d94e227e9982b33583b6588c2e45/517.png",
+      "nation": "Brazil",
+      "nationImg": "https://drop-assets.ea.com/images/1zdNn1R9tRlfQ3lsbAOecD/a606f742789b6306363383a6e20dd003/f_54.png",
+      "league": "CONMEBOL Sudamericana",
+      "img": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p199914.png?padding=0.7",
+      "stats": {
+        "pac": 77,
+        "sho": 70,
+        "pas": 80,
+        "dri": 84,
+        "def": 82,
+        "phy": 81
+      }
+    },
+    {
+      "id": "club-50524753",
+      "name": "Alphonse Areola",
+      "version": "FC Heritage",
+      "rating": 84,
+      "position": "GK",
+      "altPositions": [],
+      "gender": "M",
+      "club": "West Ham",
+      "clubImg": "https://drop-assets.ea.com/images/60X4vXPDgGISHaqyOdUGkg/c7def9840658d49d646e4895e9e04e94/l19.png",
+      "nation": "France",
+      "nationImg": "https://drop-assets.ea.com/images/3ECAQzhfgSLWRf9IIHB6G8/7e235a7b2f93c1f73db7f89dc03b3657/f_18.png",
+      "league": "EFL Championship",
+      "img": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p193105.png?padding=0.7",
+      "stats": {
+        "pac": 84,
+        "sho": 83,
+        "pas": 81,
+        "dri": 84,
+        "def": 53,
+        "phy": 83
+      }
+    },
+    {
+      "id": "club-67376538",
+      "name": "Amanda Gutierres",
+      "version": "Team of the Week",
+      "rating": 83,
+      "position": "ST",
+      "altPositions": [],
+      "gender": "W",
+      "club": "Boston Legacy FC",
+      "clubImg": "https://drop-assets.ea.com/images/4ImLeIrcUEYDtvym3MwBsP/f3b6bb2d5cf5c82e27736ac433397e75/l132697.png",
+      "nation": "Brazil",
+      "nationImg": "https://drop-assets.ea.com/images/1zdNn1R9tRlfQ3lsbAOecD/a606f742789b6306363383a6e20dd003/f_54.png",
+      "league": "NWSL",
+      "img": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p267674.png?padding=0.7",
+      "stats": {
+        "pac": 82,
+        "sho": 83,
+        "pas": 66,
+        "dri": 80,
+        "def": 41,
+        "phy": 81
+      }
+    },
+    {
+      "id": "club-50575254",
+      "name": "Keane Lewis-Potter",
+      "version": "Squad Foundations",
+      "rating": 83,
+      "position": "LB",
+      "altPositions": [
+        "LM",
+        "RM",
+        "LW"
+      ],
+      "gender": "M",
+      "club": "Brentford",
+      "clubImg": "https://drop-assets.ea.com/images/3UCvZhjBB0odWNL0OPusuK/1de0f5b97a2e137201670df2cf09e1a5/l1925.png",
+      "nation": "England",
+      "nationImg": "https://drop-assets.ea.com/images/6ZM1OFXGUFeV0ZaYVKj2z/ae88ef17f8cb179fbc1c463f7e1e4bd8/f_14.png",
+      "league": "Premier League",
+      "img": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p243606.png?padding=0.7",
+      "stats": {
+        "pac": 81,
+        "sho": 74,
+        "pas": 78,
+        "dri": 82,
+        "def": 76,
+        "phy": 70
+      }
+    },
+    {
+      "id": "club-50555358",
+      "name": "Vedat Muriqi",
+      "version": "Team of the Week",
+      "rating": 83,
+      "position": "ST",
+      "altPositions": [],
+      "gender": "M",
+      "club": "Fenerbahçe",
+      "clubImg": "https://drop-assets.ea.com/images/3sfoNHvqDPqhM1PsEE1sNM/b9dcc82d0e2fba3efc8e8d0ed4c216a6/l326.png",
+      "nation": "Kosovo",
+      "nationImg": "https://drop-assets.ea.com/images/4YJ3M3GAeLdL1Q8hN7ARmo/bfa48edbf3007805182f5372e3d45189/f_219.png",
+      "league": "Trendyol Süper Lig",
+      "img": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p223710.png?padding=0.7",
+      "stats": {
+        "pac": 75,
+        "sho": 85,
+        "pas": 70,
+        "dri": 75,
+        "def": 35,
+        "phy": 85
+      }
+    },
+    {
+      "id": "club-50596100",
+      "name": "Ringo Meerveld",
+      "version": "Squad Foundations",
+      "rating": 83,
+      "position": "CAM",
+      "altPositions": [
+        "LM",
+        "CM",
+        "LW"
+      ],
+      "gender": "M",
+      "club": "sc Heerenveen",
+      "clubImg": "https://drop-assets.ea.com/images/7CK9EhtupYhefgIKeCnoOY/87e75201a249c7c8dd8ec1bf169ae12e/1913.png",
+      "nation": "Holland",
+      "nationImg": "https://drop-assets.ea.com/images/7LmdSUm2Ge4fzqcz0NElvq/d272142c80713dcf0e5ec0a47232aeee/f_34.png",
+      "league": "Eredivisie",
+      "img": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p264452.png?padding=0.7",
+      "stats": {
+        "pac": 88,
+        "sho": 82,
+        "pas": 80,
+        "dri": 83,
+        "def": 60,
+        "phy": 74
+      }
+    },
+    {
+      "id": "club-50553308",
+      "name": "Victor Lindelöf",
+      "version": "Squad Foundations",
+      "rating": 82,
+      "position": "CB",
+      "altPositions": [],
+      "gender": "M",
+      "club": "Aston Villa",
+      "clubImg": "https://drop-assets.ea.com/images/57c0ppYsEA88xL0gxqce8K/99605df97c6a96ea3b6e8a424c217af0/l2.png",
+      "nation": "Sweden",
+      "nationImg": "https://drop-assets.ea.com/images/4ts7Tmr55hzylhHNBA5xsw/073e32f2c968ae9d531bb1d013a350a0/f_46.png",
+      "league": "Premier League",
+      "img": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p221660.png?padding=0.7",
+      "stats": {
+        "pac": 60,
+        "sho": 56,
+        "pas": 76,
+        "dri": 73,
+        "def": 82,
+        "phy": 76
+      }
+    },
+    {
+      "id": "club-50588323",
+      "name": "Omar Marmoush",
+      "version": "Base",
+      "rating": 82,
+      "position": "LW",
+      "altPositions": [
+        "ST",
+        "LM",
+        "CAM"
+      ],
+      "gender": "M",
+      "club": "Manchester City",
+      "clubImg": "https://drop-assets.ea.com/images/4asmNLic4aQn6cjlEg1t5u/88bea3ddd6c1f620bbf813041f248685/l10.png",
+      "nation": "Egypt",
+      "nationImg": "https://drop-assets.ea.com/images/3oaPJgnayo3Vq637niTdZs/2f31f32693e575ac1ae46a0651b1a8f7/f_111.png",
+      "league": "Premier League",
+      "img": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p256675.png?padding=0.7",
+      "stats": {
+        "pac": 87,
+        "sho": 83,
+        "pas": 76,
+        "dri": 83,
+        "def": 34,
+        "phy": 69
+      }
+    },
+    {
+      "id": "club-50405533",
+      "name": "Charalampos Kostoulas",
+      "version": "Squad Foundations",
+      "rating": 82,
+      "position": "ST",
+      "altPositions": [],
+      "gender": "M",
+      "club": "Brighton",
+      "clubImg": "https://drop-assets.ea.com/images/1mFLMjuFkxQjbRaTLKZ8Gm/277b9eb6d29d37064d1d82063b06f681/l1808.png",
+      "nation": "Greece",
+      "nationImg": "https://drop-assets.ea.com/images/6zI3f01SVKRJFIel1ad4BC/f85935df3b415f4a3f7320e8f78e398f/f_22.png",
+      "league": "Premier League",
+      "img": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p73885.png?padding=0.7",
+      "stats": {
+        "pac": 85,
+        "sho": 79,
+        "pas": 68,
+        "dri": 81,
+        "def": 50,
+        "phy": 79
+      }
+    },
+    {
+      "id": "club-50558033",
+      "name": "Cristian Espinoza",
+      "version": "Squad Foundations",
+      "rating": 82,
+      "position": "RM",
+      "altPositions": [
+        "RW",
+        "CAM",
+        "CM"
+      ],
+      "gender": "M",
+      "club": "Nashville SC",
+      "clubImg": "https://drop-assets.ea.com/images/4FvmPxTXK6or9m3GMc0HxL/1e3e8d34f2cc18c60f7564781ff93279/l114162.png",
+      "nation": "Argentina",
+      "nationImg": "https://drop-assets.ea.com/images/4xMXjEt7CFJ6JENYeG45Sk/836d733dc1642c5e4ab3338d91481436/f_52.png",
+      "league": "MLS",
+      "img": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p226385.png?padding=0.7",
+      "stats": {
+        "pac": 84,
+        "sho": 76,
+        "pas": 80,
+        "dri": 82,
+        "def": 55,
+        "phy": 71
+      }
+    },
+    {
+      "id": "club-50604542",
+      "name": "Kévin Danois",
+      "version": "Squad Foundations",
+      "rating": 81,
+      "position": "CM",
+      "altPositions": [
+        "CDM"
+      ],
+      "gender": "M",
+      "club": "AJ Auxerre",
+      "clubImg": "https://drop-assets.ea.com/images/1bqZtPlVC4DJC6d0eJ3wF3/d7b36902b29fff13d5cccba0d2b3ef21/l57.png",
+      "nation": "France",
+      "nationImg": "https://drop-assets.ea.com/images/3ECAQzhfgSLWRf9IIHB6G8/7e235a7b2f93c1f73db7f89dc03b3657/f_18.png",
+      "league": "Ligue 1 McDonald's",
+      "img": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p272894.png?padding=0.7",
+      "stats": {
+        "pac": 76,
+        "sho": 68,
+        "pas": 80,
+        "dri": 81,
+        "def": 74,
+        "phy": 73
+      }
+    },
+    {
+      "id": "club-50604825",
+      "name": "Olivia Holdt",
+      "version": "Team of the Week",
+      "rating": 81,
+      "position": "LM",
+      "altPositions": [
+        "CM",
+        "LW",
+        "CAM"
+      ],
+      "gender": "W",
+      "club": "Spurs",
+      "clubImg": "https://drop-assets.ea.com/images/2sUBsmapNzSGvE2hVvYNug/0d5348ba38b7e5f9418edb14cf5a161d/l116011.png",
+      "nation": "Denmark",
+      "nationImg": "https://drop-assets.ea.com/images/6ueYG8kGNCY97fHWQ6LIZ7/9ad4b50beeb1d0d2a5d2bb5a8891336f/f_13.png",
+      "league": "Barclays WSL",
+      "img": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p273177.png?padding=0.7",
+      "stats": {
+        "pac": 78,
+        "sho": 76,
+        "pas": 77,
+        "dri": 81,
+        "def": 59,
+        "phy": 77
+      }
+    },
+    {
+      "id": "club-50593509",
+      "name": "Jack Moylan",
+      "version": "Team of the Week",
+      "rating": 80,
+      "position": "CAM",
+      "altPositions": [
+        "CM",
+        "LM",
+        "CDM"
+      ],
+      "gender": "M",
+      "club": "Cardiff City",
+      "clubImg": "https://drop-assets.ea.com/images/6Os6ECzw5t7luEW2ZRWOY9/e4beaae6a76a2f667b7483da4fb473bb/1961.png",
+      "nation": "Republic of Ireland",
+      "nationImg": "https://drop-assets.ea.com/images/3kYEdtacSx6YJO1G3LJIGw/72d622eb085aecaa6ecfa86c30bc3015/f_25.png",
+      "league": "EFL Championship",
+      "img": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p261861.png?padding=0.7",
+      "stats": {
+        "pac": 84,
+        "sho": 80,
+        "pas": 79,
+        "dri": 81,
+        "def": 57,
+        "phy": 75
+      }
+    },
+    {
+      "id": "club-50411180",
+      "name": "Mariam Toloba",
+      "version": "Team of the Week",
+      "rating": 80,
+      "position": "LM",
+      "altPositions": [
+        "ST"
+      ],
+      "gender": "W",
+      "club": "Paris FC",
+      "clubImg": "https://drop-assets.ea.com/images/7F6grxEn3OFD1LHGu8lbTB/60551fa849f9ba057ccf524181bbdb07/l116035.png",
+      "nation": "Belgium",
+      "nationImg": "https://drop-assets.ea.com/images/7eZLPoDDyxSlQoqcS4NVA2/6fc085dc7e85ccd7519be7ff2df875ee/f_7.png",
+      "league": "Arkema PL",
+      "img": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p79532.png?padding=0.7",
+      "stats": {
+        "pac": 80,
+        "sho": 82,
+        "pas": 62,
+        "dri": 82,
+        "def": 24,
+        "phy": 68
+      }
+    },
+    {
+      "id": "club-50401665",
+      "name": "Gessime Yassine",
+      "version": "Team of the Week",
+      "rating": 80,
+      "position": "RW",
+      "altPositions": [
+        "LM",
+        "LW",
+        "RM"
+      ],
+      "gender": "M",
+      "club": "Strasbourg",
+      "clubImg": "https://drop-assets.ea.com/images/5ujpJkozlZbo3FNV0Fi84H/d39ffa173bd150d5f10bcfe3392abe54/l76.png",
+      "nation": "Morocco",
+      "nationImg": "https://drop-assets.ea.com/images/47SGeQ7STCrJZQSKOVJaHA/1aa24a57a60f85051e34a5ad8205771d/f_129.png",
+      "league": "Ligue 1 McDonald's",
+      "img": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p70017.png?padding=0.7",
+      "stats": {
+        "pac": 83,
+        "sho": 78,
+        "pas": 80,
+        "dri": 88,
+        "def": 50,
+        "phy": 65
+      }
+    },
+    {
+      "id": "club-67373316",
+      "name": "Ringo Meerveld",
+      "version": "Team of the Week",
+      "rating": 80,
+      "position": "LW",
+      "altPositions": [
+        "LM",
+        "CM",
+        "CAM"
+      ],
+      "gender": "M",
+      "club": "sc Heerenveen",
+      "clubImg": "https://drop-assets.ea.com/images/7CK9EhtupYhefgIKeCnoOY/87e75201a249c7c8dd8ec1bf169ae12e/1913.png",
+      "nation": "Holland",
+      "nationImg": "https://drop-assets.ea.com/images/7LmdSUm2Ge4fzqcz0NElvq/d272142c80713dcf0e5ec0a47232aeee/f_34.png",
+      "league": "Eredivisie",
+      "img": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p264452.png?padding=0.7",
+      "stats": {
+        "pac": 87,
+        "sho": 79,
+        "pas": 78,
+        "dri": 84,
+        "def": 58,
+        "phy": 74
+      }
+    },
+    {
+      "id": "club-50404746",
+      "name": "Dylan Leonard",
+      "version": "Base",
+      "rating": 63,
+      "position": "CB",
+      "altPositions": [],
+      "gender": "M",
+      "club": "FC Schalke 04",
+      "clubImg": "https://drop-assets.ea.com/images/2clcdb8dsr32j5NdLn1eFd/6e690af24a3e5bd7911a03a42e7bad41/34.png",
+      "nation": "Australia",
+      "nationImg": "https://drop-assets.ea.com/images/1z4BxEaFLZ7lgOP3T5RVqv/99256126771f079224aadffd2f61ad94/f_195.png",
+      "league": "Bundesliga",
+      "img": "https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p73098.png?padding=0.7",
+      "stats": {
+        "pac": 62,
+        "sho": 34,
+        "pas": 46,
+        "dri": 53,
+        "def": 64,
+        "phy": 66
+      }
+    }
+  ],
   "packs": [],
-  "sbcs": [],
+  "sbcs": [
+    {
+      "id": "ea-1",
+      "name": "Intro to SBCs",
+      "category": "Foundations",
+      "reward": "",
+      "expires": "",
+      "cost": 0,
+      "repeatable": false,
+      "status": "done",
+      "requirements": [],
+      "notes": "Complete these OVR-based challenges to earn rewards.",
+      "addedAt": "2026-11-13T19:00:00.000Z"
+    },
+    {
+      "id": "ea-3",
+      "name": "Intro to Upgrade SBCs",
+      "category": "Foundations",
+      "reward": "",
+      "expires": "",
+      "cost": 0,
+      "repeatable": false,
+      "status": "done",
+      "requirements": [],
+      "notes": "Complete these Upgrade-based challenges to earn rewards.",
+      "addedAt": "2026-11-13T19:00:00.000Z"
+    },
+    {
+      "id": "ea-4",
+      "name": "Bronze Upgrade",
+      "category": "Upgrades",
+      "reward": "x2 Silver Players Pack",
+      "expires": "",
+      "cost": 0,
+      "repeatable": true,
+      "status": "doing",
+      "requirements": [
+        {
+          "text": "Player Quality: Exactly Bronze",
+          "done": false
+        }
+      ],
+      "notes": "Exchange Bronze items for rewards. Done 1× so far.",
+      "addedAt": "2026-11-13T19:00:00.000Z"
+    },
+    {
+      "id": "ea-5",
+      "name": "Silver Upgrade",
+      "category": "Upgrades",
+      "reward": "75+ Gold Player Pack",
+      "expires": "",
+      "cost": 0,
+      "repeatable": true,
+      "status": "todo",
+      "requirements": [
+        {
+          "text": "Player Quality: Exactly Silver",
+          "done": false
+        }
+      ],
+      "notes": "Exchange Silver items for rewards. Done 3× so far.",
+      "addedAt": "2026-11-13T19:00:00.000Z"
+    },
+    {
+      "id": "ea-6",
+      "name": "Gold Upgrade",
+      "category": "Upgrades",
+      "reward": "2x 78+ Gold Players Pack",
+      "expires": "",
+      "cost": 0,
+      "repeatable": true,
+      "status": "doing",
+      "requirements": [
+        {
+          "text": "Player Quality: Min. Gold",
+          "done": false
+        }
+      ],
+      "notes": "Exchange Gold items for rewards.",
+      "addedAt": "2026-11-13T19:00:00.000Z"
+    },
+    {
+      "id": "ea-7",
+      "name": "Intro to Streamlined SBCs",
+      "category": "Foundations",
+      "reward": "",
+      "expires": "",
+      "cost": 0,
+      "repeatable": false,
+      "status": "doing",
+      "requirements": [
+        {
+          "text": "A New Signing · OVR Max: 64, submit 50 score → Small Silver Players Pack",
+          "done": false
+        },
+        {
+          "text": "Trading Up · OVR Between: 45 and 74, submit 100 score → Gold Pack",
+          "done": false
+        },
+        {
+          "text": "The Royal SBC · League: Premier League, submit 250 score → 35x Bronze Players Pack",
+          "done": false
+        },
+        {
+          "text": "The Multi Submit · OVR Max: 64, submit 600 score → Large Electrum Players Pack",
+          "done": false
+        }
+      ],
+      "notes": "Submit any players from your collection to earn rewards",
+      "addedAt": "2026-11-13T19:00:00.000Z"
+    },
+    {
+      "id": "ea-8",
+      "name": "Bronze and Silver Re-roll",
+      "category": "Foundations",
+      "reward": "75+ Gold Player Pack",
+      "expires": "",
+      "cost": 0,
+      "repeatable": true,
+      "status": "doing",
+      "requirements": [
+        {
+          "text": "OVR Max: 74, submit 500 score",
+          "done": false
+        }
+      ],
+      "notes": "Submit 500 Score to earn Rewards. Done 1× so far.",
+      "addedAt": "2026-11-13T19:00:00.000Z"
+    },
+    {
+      "id": "ea-9",
+      "name": "Gold Re-Roll",
+      "category": "Foundations",
+      "reward": "2x 78+ Gold Players Pack",
+      "expires": "",
+      "cost": 0,
+      "repeatable": true,
+      "status": "doing",
+      "requirements": [
+        {
+          "text": "OVR Max: 83, submit 1,250 score",
+          "done": false
+        }
+      ],
+      "notes": "Submit 1,250 Score to earn Rewards.",
+      "addedAt": "2026-11-13T19:00:00.000Z"
+    },
+    {
+      "id": "ea-10",
+      "name": "League & Nation Advanced",
+      "category": "Challenges",
+      "reward": "Jumbo Gold Pack",
+      "expires": "",
+      "cost": 0,
+      "repeatable": false,
+      "status": "doing",
+      "requirements": [
+        {
+          "text": "3 Leagues & 2 Nations · Leagues in Squad: Exactly 3, Nationalities in Squad: Exactly 2, Players from the same League: Max 6, Players from the same Countries/Regions: Max 6, Player Quality: Exactly Gold, Total Chemistry: Min. 30 → Small Electrum Players Pack",
+          "done": false
+        },
+        {
+          "text": "4 Leagues & 5 Nations · Leagues in Squad: Exactly 4, Nationalities in Squad: Exactly 5, Players from the same League: Max 4, Players from the same Countries/Regions: Max 3, Team Rating: Min. 78, Total Chemistry: Min. 25 → Large Electrum Players Pack",
+          "done": false
+        },
+        {
+          "text": "5 Leagues & 6 Nations · Leagues in Squad: Exactly 5, Nationalities in Squad: Exactly 6, Players from the same Club: Max 2, Team Rating: Min. 81, Total Chemistry: Min. 25 → Small Gold Players Pack",
+          "done": false
+        }
+      ],
+      "notes": "Complete these Puzzle-based challenges to earn rewards.",
+      "addedAt": "2026-11-13T19:00:00.000Z"
+    },
+    {
+      "id": "ea-20",
+      "name": "Intro to Player SBCs",
+      "category": "Foundations",
+      "reward": "",
+      "expires": "",
+      "cost": 0,
+      "repeatable": false,
+      "status": "done",
+      "requirements": [],
+      "notes": "Complete the Intro to Player SBCs to earn Squad Foundations Cristian Espinoza.",
+      "addedAt": "2026-11-13T19:00:00.000Z"
+    },
+    {
+      "id": "ea-91",
+      "name": "Bundesliga & Google Pixel Frauen-Bundesliga",
+      "category": "Upgrades",
+      "reward": "2x Max 85 Gold Players Pack",
+      "expires": "2026-12-06",
+      "cost": 0,
+      "repeatable": true,
+      "status": "todo",
+      "requirements": [
+        {
+          "text": "Bundesliga · OVR Min: 45, submit 2,500 score → Bundesliga Bronze & Silver Players Pack",
+          "done": false
+        },
+        {
+          "text": "Google Pixel Frauen-Bundesliga · OVR Min: 45, submit 2,500 score → GPFBL Bronze & Silver Players Pack",
+          "done": false
+        }
+      ],
+      "notes": "Complete these challenges to earn a total of 10 Bronze and 10 Silver Player Items from BL and GPFBL.",
+      "addedAt": "2026-11-13T19:00:00.000Z"
+    },
+    {
+      "id": "ea-92",
+      "name": "Ligue 1 & Arkema Première Ligue",
+      "category": "Upgrades",
+      "reward": "2x Max 85 Gold Players Pack",
+      "expires": "2026-12-06",
+      "cost": 0,
+      "repeatable": true,
+      "status": "todo",
+      "requirements": [
+        {
+          "text": "Ligue 1 · OVR Min: 45, submit 2,500 score → Ligue 1 Bronze & Silver Players Pack",
+          "done": false
+        },
+        {
+          "text": "Arkema Première Ligue · OVR Min: 45, submit 2,500 score → Arkema PL Bronze & Silver Players Pack",
+          "done": false
+        }
+      ],
+      "notes": "Complete these challenges to earn a total of 10 Bronze and 10 Silver Player Items from L1 and Arkema PL.",
+      "addedAt": "2026-11-13T19:00:00.000Z"
+    },
+    {
+      "id": "ea-93",
+      "name": "Premier League & Barclays WSL",
+      "category": "Upgrades",
+      "reward": "2x Max 85 Gold Players Pack",
+      "expires": "2026-12-06",
+      "cost": 0,
+      "repeatable": true,
+      "status": "todo",
+      "requirements": [
+        {
+          "text": "Premier League · OVR Min: 45, submit 4,500 score → Premier League Bronze & Silver Players Pack",
+          "done": false
+        },
+        {
+          "text": "Barclays WSL · OVR Min: 45, submit 4,500 score → Barclays WSL Bronze & Silver Players Pack",
+          "done": false
+        }
+      ],
+      "notes": "Complete these challenges to earn a total of 10 Bronze and 10 Silver Player Items from PL and WSL.",
+      "addedAt": "2026-11-13T19:00:00.000Z"
+    },
+    {
+      "id": "ea-94",
+      "name": "LALIGA & Liga F",
+      "category": "Upgrades",
+      "reward": "2x Max 85 Gold Players Pack",
+      "expires": "2026-12-06",
+      "cost": 0,
+      "repeatable": true,
+      "status": "todo",
+      "requirements": [
+        {
+          "text": "LALIGA · OVR Min: 45, submit 3,000 score → LALIGA Bronze & Silver Players Pack",
+          "done": false
+        },
+        {
+          "text": "Liga F · OVR Min: 45, submit 3,000 score → Liga F Bronze & Silver Players Pack",
+          "done": false
+        }
+      ],
+      "notes": "Complete these challenges to earn a total of 10 Bronze and 10 Silver Player Items from LL and LF.",
+      "addedAt": "2026-11-13T19:00:00.000Z"
+    },
+    {
+      "id": "ea-99",
+      "name": "Serie A & ROSHN Saudi League",
+      "category": "Upgrades",
+      "reward": "2x Max 85 Gold Players Pack",
+      "expires": "2026-12-06",
+      "cost": 0,
+      "repeatable": true,
+      "status": "todo",
+      "requirements": [
+        {
+          "text": "Serie A · OVR Min: 45, submit 1,500 score → Serie A Bronze & Silver Players Pack",
+          "done": false
+        },
+        {
+          "text": "ROSHN Saudi League · OVR Min: 45, submit 1,500 score → ROSHN SL Bronze & Silver Players Pack",
+          "done": false
+        }
+      ],
+      "notes": "Complete these challenges to earn a total of 10 Bronze and 10 Silver Player Items from Serie A & ROSHN Saudi League.",
+      "addedAt": "2026-11-13T19:00:00.000Z"
+    },
+    {
+      "id": "ea-100",
+      "name": "MLS & NWSL",
+      "category": "Upgrades",
+      "reward": "2x Max 85 Gold Players Pack",
+      "expires": "2026-12-06",
+      "cost": 0,
+      "repeatable": true,
+      "status": "todo",
+      "requirements": [
+        {
+          "text": "MLS · OVR Min: 45, submit 1,500 score → MLS Bronze & Silver Players Pack",
+          "done": false
+        },
+        {
+          "text": "NWSL · OVR Min: 45, submit 1,500 score → NWSL Bronze & Silver Players Pack",
+          "done": false
+        }
+      ],
+      "notes": "Complete these challenges to earn a total of 10 Bronze and 10 Silver Player Items from MLS & NWSL.",
+      "addedAt": "2026-11-13T19:00:00.000Z"
+    },
+    {
+      "id": "ea-107",
+      "name": "Red Bull Wiiings Challenge",
+      "category": "Challenges",
+      "reward": "Small Gold Players Pack",
+      "expires": "2026-11-23",
+      "cost": 0,
+      "repeatable": false,
+      "status": "todo",
+      "requirements": [
+        {
+          "text": "RB Leipzig OR RB Salzburg: Min. 1 Player, Players from the same Club: Min. 3, Nationalities in Squad: Max. 4, Player Quality: Min. Bronze, Total Chemistry: Min. 14",
+          "done": false
+        }
+      ],
+      "notes": "Complete the Red Bull Challenge to earn a reward.",
+      "addedAt": "2026-11-13T19:00:00.000Z"
+    },
+    {
+      "id": "ea-110",
+      "name": "3x 79+ Upgrade",
+      "category": "Upgrades",
+      "reward": "3x 79+ Gold Players Pack",
+      "expires": "2026-11-16",
+      "cost": 0,
+      "repeatable": true,
+      "status": "todo",
+      "requirements": [
+        {
+          "text": "OVR Min: 45, submit 3,200 score",
+          "done": false
+        }
+      ],
+      "notes": "Earn a pack containing 3 Gold Player Items, rated 79 or higher.",
+      "addedAt": "2026-11-13T19:00:00.000Z"
+    },
+    {
+      "id": "ea-111",
+      "name": "Marquee Matchups",
+      "category": "Challenges",
+      "reward": "Jumbo Electrum Pack",
+      "expires": "2026-11-19",
+      "cost": 0,
+      "repeatable": false,
+      "status": "todo",
+      "requirements": [
+        {
+          "text": "Portugal v Denmark · Portugal OR Denmark: Min. 1 Player, Clubs in Squad: Min. 4, Gold: Min. 1 Players, Player Quality: Min. Silver, Total Chemistry: Min. 14 → Gold Pack",
+          "done": false
+        },
+        {
+          "text": "Germany v Netherlands · Germany OR Netherlands: Min. 1 Player, Players from the same Club: Min. 2, Leagues in Squad: Max. 6, Gold: Min. 1 Players, Player Quality: Min. Silver, Total Chemistry: Min. 18 → Small Mixed Electrum Players Pack",
+          "done": false
+        },
+        {
+          "text": "Italy v France · Italy OR France: Min. 2 Players, Players from the same Club: Max 3, Players from the same League: Min. 4, Nationalities in Squad: Min. 3, Team Rating: Min. 75, Total Chemistry: Min. 22 → Large Electrum Players Pack",
+          "done": false
+        },
+        {
+          "text": "Spain v England · Spain OR England: Min. 2 Players, Players from the same Countries/Regions: Min. 3, Players from the same Club: Max 4, Leagues in Squad: Min. 3, Team Rating: Min. 76, Total Chemistry: Min. 26 → Small Electrum Pack",
+          "done": false
+        }
+      ],
+      "notes": "Complete challenges themed around this week's key matchups.",
+      "addedAt": "2026-11-13T19:00:00.000Z"
+    },
+    {
+      "id": "ea-114",
+      "name": "Hall of FUT: Unleashed Challenge 1",
+      "category": "Challenges",
+      "reward": "Gold Pack",
+      "expires": "2026-11-16",
+      "cost": 0,
+      "repeatable": false,
+      "status": "todo",
+      "requirements": [
+        {
+          "text": "Players from the same League: Max 4, Leagues in Squad: Min. 3, Nationalities in Squad: Max. 6, Silver: Min. 3 Players, Player Quality: Min. Bronze, Total Chemistry: Min. 14",
+          "done": false
+        }
+      ],
+      "notes": "Complete this challenge to earn a reward.",
+      "addedAt": "2026-11-13T19:00:00.000Z"
+    },
+    {
+      "id": "ea-121",
+      "name": "Liga F POTM October",
+      "category": "Players",
+      "reward": "85 Ainhoa Marín",
+      "expires": "2026-12-28",
+      "cost": 0,
+      "repeatable": false,
+      "status": "doing",
+      "requirements": [
+        {
+          "text": "OVR Min: 45, submit 14,000 score",
+          "done": false
+        }
+      ],
+      "notes": "Earn the Liga F Player of the Month for October.",
+      "addedAt": "2026-11-13T19:00:00.000Z"
+    },
+    {
+      "id": "ea-122",
+      "name": "Ethan Nwaneri",
+      "category": "Players",
+      "reward": "85 Ethan Nwaneri",
+      "expires": "2026-11-18",
+      "cost": 0,
+      "repeatable": false,
+      "status": "todo",
+      "requirements": [
+        {
+          "text": "OVR Min: 45, submit 20,000 score",
+          "done": false
+        }
+      ],
+      "notes": "Earn a special UEFA Champions League Road to the Knockouts Ethan Nwaneri.",
+      "addedAt": "2026-11-13T19:00:00.000Z"
+    },
+    {
+      "id": "ea-125",
+      "name": "Riccardo Calafiori",
+      "category": "Players",
+      "reward": "86 Riccardo Calafiori",
+      "expires": "2026-11-15",
+      "cost": 0,
+      "repeatable": false,
+      "status": "doing",
+      "requirements": [
+        {
+          "text": "OVR Min: 45, submit 135,000 score",
+          "done": false
+        }
+      ],
+      "notes": "Earn a special UEFA Champions League Road to the Knockouts Riccardo Calafiori.",
+      "addedAt": "2026-11-13T19:00:00.000Z"
+    },
+    {
+      "id": "ea-126",
+      "name": "Brian Brobbey",
+      "category": "Players",
+      "reward": "",
+      "expires": "2026-11-16",
+      "cost": 0,
+      "repeatable": false,
+      "status": "done",
+      "requirements": [],
+      "notes": "Earn a special UEFA Europa League Road to the Knockouts Brian Brobbey.",
+      "addedAt": "2026-11-13T19:00:00.000Z"
+    },
+    {
+      "id": "ea-127",
+      "name": "Shea Lacey",
+      "category": "Players",
+      "reward": "85 Shea Lacey",
+      "expires": "2026-11-16",
+      "cost": 0,
+      "repeatable": false,
+      "status": "todo",
+      "requirements": [
+        {
+          "text": "OVR Min: 45, submit 42,000 score",
+          "done": false
+        }
+      ],
+      "notes": "Earn a Star Performer Shea Lacey, celebrating his impact in inspiring his team's comeback to win 3-2!",
+      "addedAt": "2026-11-13T19:00:00.000Z"
+    },
+    {
+      "id": "ea-128",
+      "name": "LALIGA POTM October",
+      "category": "Players",
+      "reward": "92 Kylian Mbappé",
+      "expires": "2026-12-07",
+      "cost": 0,
+      "repeatable": false,
+      "status": "todo",
+      "requirements": [
+        {
+          "text": "OVR Min: 45, submit 5,200,000 score",
+          "done": false
+        }
+      ],
+      "notes": "Earn the LALIGA Player of the Month for October.",
+      "addedAt": "2026-11-13T19:00:00.000Z"
+    },
+    {
+      "id": "ea-129",
+      "name": "5x 80+ Upgrade",
+      "category": "Upgrades",
+      "reward": "5x 80+ Gold Players Pack",
+      "expires": "2026-11-17",
+      "cost": 0,
+      "repeatable": true,
+      "status": "todo",
+      "requirements": [
+        {
+          "text": "OVR Min: 45, submit 6,750 score",
+          "done": false
+        }
+      ],
+      "notes": "Earn a pack containing 5 Gold Player Items, rated 80 or higher.",
+      "addedAt": "2026-11-13T19:00:00.000Z"
+    },
+    {
+      "id": "ea-130",
+      "name": "81+ TOTW 1-9 Upgrade",
+      "category": "Upgrades",
+      "reward": "81+ TOTW 1-9 Player Pack",
+      "expires": "2026-11-20",
+      "cost": 0,
+      "repeatable": true,
+      "status": "todo",
+      "requirements": [
+        {
+          "text": "OVR Min: 45, submit 18,000 score",
+          "done": false
+        }
+      ],
+      "notes": "Earn a pack containing 1 TOTW Player Item, rated 81 or higher, from TOTW 1 to 9.",
+      "addedAt": "2026-11-13T19:00:00.000Z"
+    },
+    {
+      "id": "ea-148",
+      "name": "Premier League POTM October",
+      "category": "Players",
+      "reward": "85 Nicolas Jackson",
+      "expires": "2026-12-11",
+      "cost": 0,
+      "repeatable": false,
+      "status": "todo",
+      "requirements": [
+        {
+          "text": "OVR Min: 45, submit 17,000 score",
+          "done": false
+        }
+      ],
+      "notes": "Earn the Premier League Player of the Month for October.",
+      "addedAt": "2026-11-13T19:00:00.000Z"
+    },
+    {
+      "id": "ea-151",
+      "name": "Campaign Mix Upgrade",
+      "category": "Upgrades",
+      "reward": "Campaign Mix Player Pack",
+      "expires": "2026-11-20",
+      "cost": 0,
+      "repeatable": true,
+      "status": "todo",
+      "requirements": [
+        {
+          "text": "OVR Min: 45, submit 40,000 score",
+          "done": false
+        }
+      ],
+      "notes": "Earn a pack containing 1 Destined for Glory or Future Stars Player Item.",
+      "addedAt": "2026-11-13T19:00:00.000Z"
+    },
+    {
+      "id": "ea-152",
+      "name": "Serie A POTM October",
+      "category": "Players",
+      "reward": "85 Giacomo Calò",
+      "expires": "2026-12-10",
+      "cost": 0,
+      "repeatable": false,
+      "status": "todo",
+      "requirements": [
+        {
+          "text": "OVR Min: 45, submit 23,000 score",
+          "done": false
+        }
+      ],
+      "notes": "Earn the Serie A Player of the Month for October.",
+      "addedAt": "2026-11-13T19:00:00.000Z"
+    },
+    {
+      "id": "ea-154",
+      "name": "Bundesliga POTM October",
+      "category": "Players",
+      "reward": "85 Niclas Füllkrug",
+      "expires": "2026-12-10",
+      "cost": 0,
+      "repeatable": false,
+      "status": "todo",
+      "requirements": [
+        {
+          "text": "OVR Min: 45, submit 12,000 score",
+          "done": false
+        }
+      ],
+      "notes": "Earn the Bundesliga Player of the Month for October.",
+      "addedAt": "2026-11-13T19:00:00.000Z"
+    },
+    {
+      "id": "ea-155",
+      "name": "Alessandro Florenzi",
+      "category": "Players",
+      "reward": "87 Alessandro Florenzi",
+      "expires": "2026-12-04",
+      "cost": 0,
+      "repeatable": false,
+      "status": "todo",
+      "requirements": [
+        {
+          "text": "OVR Min: 45, submit 380,000 score",
+          "done": false
+        }
+      ],
+      "notes": "Earn a special Hall of FUT: Unleashed Alessandro Florenzi.",
+      "addedAt": "2026-11-13T19:00:00.000Z"
+    }
+  ],
   "targets": [],
   "meta": [
     {

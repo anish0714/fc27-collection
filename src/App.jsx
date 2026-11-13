@@ -1,5 +1,6 @@
 import { useCallback, useDeferredValue, useEffect, useMemo, useRef, useState } from 'react'
 import Meta from './components/Meta.jsx'
+import MetaTeams from './components/MetaTeams.jsx'
 import Packs from './components/Packs.jsx'
 import PlayerCard from './components/PlayerCard.jsx'
 import Sbcs from './components/Sbcs.jsx'
@@ -315,7 +316,7 @@ export default function App() {
           ['squad', 'Squad builder', null],
           ['sbcs', 'SBCs', collection.sbcs.filter((s) => s.status !== 'done' && s.status !== 'skipped').length],
           ['targets', 'Squad targets', collection.targets.filter((t) => t.status !== 'got').length],
-          ['meta', 'Meta cards', collection.meta.length],
+          ['meta', 'Meta', collection.meta.length],
           ['packs', 'Packs opened', collection.packs.length],
         ].map(([id, label, count]) => (
           <button key={id} type="button" role="tab" aria-selected={tab === id} className={tab === id ? 'active' : ''} onClick={() => setTab(id)}>
@@ -360,7 +361,11 @@ export default function App() {
       ) : tab === 'targets' ? (
         <main><Targets targets={collection.targets} ownedNames={ownedNames} onChange={(l) => setList('targets', l)} /></main>
       ) : tab === 'meta' ? (
-        <main><Meta meta={collection.meta} targets={collection.targets} ownedNames={ownedNames} onChange={(l) => setList('meta', l)} onTarget={addMetaToTargets} /></main>
+        <main className="meta-main">
+          <MetaTeams allCards={allCards} ownedCards={ownedCards} />
+          <h2 className="section-title">Meta cards</h2>
+          <Meta meta={collection.meta} targets={collection.targets} ownedNames={ownedNames} onChange={(l) => setList('meta', l)} onTarget={addMetaToTargets} />
+        </main>
       ) : tab === 'cards' ? (
         <main>
           <div className="filters">
