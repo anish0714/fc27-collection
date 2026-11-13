@@ -1,0 +1,20 @@
+node_modules
+dist
+
+# Personal data: your club, squads, SBC progress and club prices stay on this PC.
+data/my-collection.json
+data/club-export.json
+data/ea-squads.json
+data/sbc-export.json
+data/club-prices.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.local
