@@ -13,7 +13,8 @@
     "preview": "vite preview",
     "fetch-cards": "node scripts/fetch-cards.mjs",
     "import-club": "node scripts/import-club.mjs",
-    "import-sbcs": "node scripts/import-sbcs.mjs"
+    "import-sbcs": "node scripts/import-sbcs.mjs",
+    "publish-data": "node scripts/publish-data.mjs"
   },
   "dependencies": {
     "react": "^19.3.0",

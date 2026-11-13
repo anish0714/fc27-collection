@@ -1,0 +1,110 @@
+{
+  "updatedAt": "2026-11-13",
+  "sources": [
+    { "name": "Dexerto: Best EA FC 27 formations & custom tactics", "url": "https://www.dexerto.com/wikis/ea-fc-27/best-formations-and-custom-tactics/" },
+    { "name": "U7BUY: FC 27 meta players by position (Oct 21, 2026)", "url": "https://www.u7buy.com/blog/fc-27-meta-players/" }
+  ],
+  "note": "Tactics and roles come from Dexerto; players per position come from U7BUY's competitive meta picks. Each slot lists the main pick first, then alternatives. Players and slots follow the formation's slot order.",
+  "teams": [
+    {
+      "id": "meta-4213",
+      "name": "Meta 4-2-1-3",
+      "formation": "4-2-1-3",
+      "summary": "The most used formation at launch. Two CDMs cover the gaps, while three forwards and a Shadow Striker attack.",
+      "tactics": { "buildUp": "Counter", "defensiveLine": 55 },
+      "slots": [
+        { "role": "Goalkeeper / Defend", "players": ["Joan García", "Thibaut Courtois", "David Raya"] },
+        { "role": "Fullback / Defend", "players": ["Xavi Espart", "Selma Bacha", "Álvaro Carreras"] },
+        { "role": "Defender / Defend", "players": ["Maxence Lacroix", "William Pacho"] },
+        { "role": "Defender / Defend", "players": ["Dayot Upamecano", "Eric García", "Roger Ibañez"] },
+        { "role": "Fullback / Defend", "players": ["Ona Batlle"] },
+        { "role": "Box Crasher / Balanced", "players": ["Pedri", "João Neves", "Elliot Anderson"] },
+        { "role": "Holding / Defend", "players": ["Patri Guijarro", "Elliot Anderson"] },
+        { "role": "Shadow Striker / Attack", "players": ["Aitana Bonmatí", "Alexia Putellas", "Bruno Fernandes"] },
+        { "role": "Inside Forward / Attack", "players": ["Karim Adeyemi", "Claudia Pina", "Bradley Barcola"] },
+        { "role": "Advanced Forward / Attack", "players": ["Kylian Mbappé", "Ousmane Dembélé"] },
+        { "role": "Inside Forward / Attack", "players": ["Lamine Yamal", "Yan Diomande", "Caroline Graham Hansen"] }
+      ]
+    },
+    {
+      "id": "meta-4411",
+      "name": "Meta 4-4-1-1",
+      "formation": "4-4-1-1",
+      "summary": "Like 4-2-1-3 with more midfield. The CAM and the Box-to-Box CM make late runs into the box.",
+      "tactics": { "buildUp": "Counter", "defensiveLine": 45 },
+      "slots": [
+        { "role": "Goalkeeper / Defend", "players": ["Joan García", "Thibaut Courtois"] },
+        { "role": "Fullback / Defend", "players": ["Xavi Espart", "Selma Bacha", "Álvaro Carreras"] },
+        { "role": "Defender / Defend", "players": ["Maxence Lacroix", "William Pacho"] },
+        { "role": "Defender / Defend", "players": ["Dayot Upamecano", "Eric García"] },
+        { "role": "Fullback / Defend", "players": ["Ona Batlle"] },
+        { "role": "Inside Forward / Balanced", "players": ["Karim Adeyemi", "Claudia Pina", "Bradley Barcola"] },
+        { "role": "Box-to-Box / Balanced", "players": ["Sakina Karchaoui", "Georgia Stanway"] },
+        { "role": "Holding / Defend", "players": ["Patri Guijarro", "João Neves", "Elliot Anderson"] },
+        { "role": "Inside Forward / Balanced", "players": ["Lamine Yamal", "Yan Diomande", "Caroline Graham Hansen"] },
+        { "role": "Shadow Striker / Attack", "players": ["Aitana Bonmatí", "Alexia Putellas"] },
+        { "role": "Advanced Forward / Attack", "players": ["Kylian Mbappé", "Ousmane Dembélé"] }
+      ]
+    },
+    {
+      "id": "meta-41212",
+      "name": "Narrow 4-1-2-1-2",
+      "formation": "4-1-2-1-2",
+      "summary": "Packs the middle for possession. Keep the ball with short passes, then play a through ball.",
+      "tactics": { "buildUp": "Short Passing", "defensiveLine": 40 },
+      "slots": [
+        { "role": "Goalkeeper / Defend", "players": ["Joan García", "Thibaut Courtois"] },
+        { "role": "Fullback / Defend", "players": ["Selma Bacha", "Álvaro Carreras"] },
+        { "role": "Defender / Defend", "players": ["Maxence Lacroix", "William Pacho"] },
+        { "role": "Defender / Defend", "players": ["Dayot Upamecano", "Eric García"] },
+        { "role": "Fullback / Defend", "players": ["Ona Batlle"] },
+        { "role": "Holding / Defend", "players": ["Xavi Espart", "Patri Guijarro"] },
+        { "role": "Box-to-Box / Balanced", "players": ["Sakina Karchaoui", "Federico Valverde"] },
+        { "role": "Box-to-Box / Balanced", "players": ["Georgia Stanway", "Pedri"] },
+        { "role": "Classic 10 / Attack", "players": ["Aitana Bonmatí", "Alexia Putellas", "Bruno Fernandes"] },
+        { "role": "Target Forward / Attack", "players": ["Ousmane Dembélé", "Temwa Chawinga"] },
+        { "role": "Advanced Forward / Attack", "players": ["Kylian Mbappé", "Karim Adeyemi"] }
+      ]
+    },
+    {
+      "id": "meta-4222",
+      "name": "Box-overload 4-2-2-2",
+      "formation": "4-2-2-2",
+      "summary": "No wingers. A Playmaker CAM sits outside the box while a Shadow Striker and two strikers overload it.",
+      "tactics": { "buildUp": "Short Passing", "defensiveLine": 40 },
+      "slots": [
+        { "role": "Goalkeeper / Defend", "players": ["Joan García", "Thibaut Courtois"] },
+        { "role": "Fullback / Defend", "players": ["Xavi Espart", "Selma Bacha"] },
+        { "role": "Defender / Defend", "players": ["Maxence Lacroix", "William Pacho"] },
+        { "role": "Defender / Defend", "players": ["Dayot Upamecano", "Eric García"] },
+        { "role": "Fullback / Defend", "players": ["Ona Batlle"] },
+        { "role": "Holding / Defend", "players": ["Patri Guijarro", "Elliot Anderson"] },
+        { "role": "Box Crasher / Balanced", "players": ["Pedri", "João Neves"] },
+        { "role": "Playmaker / Balanced", "players": ["Bruno Fernandes", "Alexia Putellas"] },
+        { "role": "Shadow Striker / Attack", "players": ["Aitana Bonmatí", "Vicky López"] },
+        { "role": "Target Forward / Attack", "players": ["Temwa Chawinga", "Sophia Wilson"] },
+        { "role": "Advanced Forward / Attack", "players": ["Kylian Mbappé", "Karim Adeyemi"] }
+      ]
+    },
+    {
+      "id": "meta-4334",
+      "name": "Attacking 4-3-3 (4)",
+      "formation": "4-3-3 (4)",
+      "summary": "High line and five attacking players. Win the ball high, then let the CAM and wingers finish.",
+      "tactics": { "buildUp": "Counter", "defensiveLine": 60 },
+      "slots": [
+        { "role": "Goalkeeper / Defend", "players": ["Thibaut Courtois", "Joan García"] },
+        { "role": "Fullback / Defend", "players": ["Xavi Espart", "Álvaro Carreras"] },
+        { "role": "Defender / Defend", "players": ["Maxence Lacroix", "William Pacho"] },
+        { "role": "Defender / Defend", "players": ["Dayot Upamecano", "Roger Ibañez"] },
+        { "role": "Fullback / Defend", "players": ["Ona Batlle"] },
+        { "role": "Box-to-Box / Balanced", "players": ["Sakina Karchaoui", "Georgia Stanway"] },
+        { "role": "Holding / Defend", "players": ["Pedri", "Patri Guijarro"] },
+        { "role": "Shadow Striker / Attack", "players": ["Aitana Bonmatí", "Alexia Putellas"] },
+        { "role": "Inside Forward / Balanced", "players": ["Karim Adeyemi", "Bradley Barcola"] },
+        { "role": "Advanced Forward / Attack", "players": ["Kylian Mbappé", "Ousmane Dembélé"] },
+        { "role": "Inside Forward / Balanced", "players": ["Lamine Yamal", "Yan Diomande"] }
+      ]
+    }
+  ]
+}

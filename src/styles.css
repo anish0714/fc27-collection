@@ -1700,3 +1700,134 @@ input[type='checkbox'] {
 .detail-table .rating-badge { display: inline-block; }
 
 .kept-list li > .muted.small:last-child { margin-left: auto; text-align: right; }
+
+/* Meta teams */
+.meta-main {
+  display: grid;
+  gap: 16px;
+}
+
+.section-title {
+  margin: 12px 0 0;
+  font-size: 1.2rem;
+}
+
+.meta-teams {
+  display: grid;
+  gap: 12px;
+}
+
+.meta-teams-head h2 {
+  margin: 0 0 4px;
+  font-size: 1.2rem;
+}
+
+.meta-teams-head p { margin: 0; max-width: 80ch; }
+.meta-teams-head a { color: var(--accent); }
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+  gap: 12px;
+  align-items: start;
+}
+
+.team-card {
+  display: grid;
+  gap: 10px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 14px;
+  min-width: 0;
+}
+
+.team-card > header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.team-card h3 { margin: 0 0 6px; font-size: 1rem; }
+.team-card p { margin: 0; }
+
+.team-owned {
+  display: grid;
+  justify-items: end;
+  line-height: 1.1;
+  white-space: nowrap;
+}
+
+.team-owned strong { font-size: 1.5rem; color: var(--accent); font-variant-numeric: tabular-nums; }
+.team-owned small { color: var(--muted); font-size: 0.75rem; }
+
+.team-rows {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 6px;
+}
+
+.team-rows li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+  font-size: 0.88rem;
+}
+
+.slot-tag {
+  flex: none;
+  width: 38px;
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: 800;
+  padding: 2px 0;
+  border-radius: 6px;
+  background: var(--panel-2);
+  border: 1px solid var(--border);
+}
+
+.team-player {
+  flex: 1;
+  display: grid;
+  min-width: 0;
+}
+
+.team-player > span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.team-player > span:first-child { font-weight: 600; }
+
+.team-rows .rating-badge { display: inline-block; }
+
+.team-status {
+  flex: none;
+  width: 62px;
+  text-align: right;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.team-status.yes { color: var(--accent); }
+.team-status.no { color: var(--muted); }
+
+.team-card footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.meta-team-note {
+  display: grid;
+  gap: 2px;
+  background: var(--panel-2);
+  border-radius: 8px;
+  padding: 8px 10px;
+}
