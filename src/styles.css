@@ -2053,3 +2053,19 @@ input[type='checkbox'] {
 .team-pitch .slot {
   width: clamp(52px, 12.5%, 84px);
 }
+
+.team-card.clickable {
+  cursor: pointer;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+
+.team-card.clickable:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.team-card.clickable:hover footer .muted { color: var(--accent); }
+.team-card footer { margin-top: auto; }
+.team-grid { align-items: stretch; }
+.team-card.clickable { grid-template-rows: auto 1fr auto; }
+.team-card footer .primary { white-space: nowrap; }

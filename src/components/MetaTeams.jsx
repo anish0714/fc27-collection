@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useMemo } from 'react'
 import { META_TEAMS, META_TEAMS_INFO, resolveTeam } from '../lib/metaTeams.js'
 
 const DRAFT_KEY = 'fc27-squad-draft'
@@ -20,19 +20,24 @@ export function buildInSquadBuilder(team, rows) {
   location.hash = 'squad'
 }
 
+// A compact card: name, tactics and how much of it you own. Clicking it opens the team page,
+// which has the players, roles and the pitch view.
 function TeamCard({ team, allCards, ownedCards }) {
-  const [open, setOpen] = useState(false)
   const rows = useMemo(() => resolveTeam(team, allCards, ownedCards), [team, allCards, ownedCards])
   const ownedCount = rows.filter((r) => r.owned).length
-  const shown = open ? rows : rows.slice(5) // midfield + attack first, defence on demand
+  const href = `#team-${team.id}`
+  const open = (e) => {
+    if (e.target.closest('a, button')) return
+    location.hash = `team-${team.id}`
+  }
 
   return (
-    <article className="team-card">
+    <article className="team-card clickable" onClick={open}>
       <header>
         <div>
-          <h3><a href={`#team-${team.id}`}>{team.name}</a></h3>
+          <h3><a href={href}>{team.name}</a></h3>
           <div className="tags">
-            <a className="tag tag-link" href={`#team-${team.id}`} title="View this team on the pitch">{team.formation} ↗</a>
+            <span className="tag">{team.formation}</span>
             <span className="tag">Build-up: {team.tactics.buildUp}</span>
             <span className="tag">Def. line {team.tactics.defensiveLine}</span>
           </div>
@@ -43,27 +48,8 @@ function TeamCard({ team, allCards, ownedCards }) {
         </div>
       </header>
       <p className="muted small">{team.summary}</p>
-      <ul className="team-rows">
-        {shown.map((r, i) => (
-          <li key={i} className={r.owned ? 'owned' : ''}>
-            <span className="slot-tag">{r.pos}</span>
-            <span className="team-player">
-              <span>
-                {r.pick ? r.pick.name : r.pickName}
-                {r.pick?.custom && <span className="muted small"> · {r.pick.version}</span>}
-              </span>
-              <span className="muted small">{r.role}{r.players.length > 1 ? ` · or ${r.players.filter((p) => p !== r.pickName).join(', ')}` : ''}</span>
-            </span>
-            {r.pick && <span className={`rating-badge tier-${r.pick.tier}`}>{r.pick.rating}</span>}
-            <span className={`team-status ${r.owned ? 'yes' : 'no'}`}>{r.owned ? '✓ Owned' : 'Need'}</span>
-          </li>
-        ))}
-      </ul>
       <footer>
-        <span className="team-links">
-          <a href={`#team-${team.id}`}>View team</a>
-          <button type="button" className="link" onClick={() => setOpen((v) => !v)}>{open ? 'Hide defence' : 'Show all 11'}</button>
-        </span>
+        <span className="muted small">Players &amp; tactics →</span>
         <button type="button" className="primary" onClick={() => buildInSquadBuilder(team, rows)}>Build this team</button>
       </footer>
     </article>
