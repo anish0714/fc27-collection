@@ -21,6 +21,18 @@ export function statRows(card) {
   })
 }
 
+// EA's rendered card image ("player shield") from its free public ratings site.
+// Note: these images are from an older game (the URL says FC25), so a player whose rating
+// changed shows the old rating and stats. The app's own card uses the FC 27 data instead.
+// Older card data has no `shield` field, so derive it from the portrait URL, which shares the id.
+// Promo cards (TOTW, RTTK…) have no image at all.
+export function shieldOf(card) {
+  if (card.custom) return card.shield ?? ''
+  if (card.shield) return card.shield
+  const m = /^(https:\/\/ratings-images-prod\.pulse\.ea\.com\/[^/]+\/full)\/player-portraits\/p(\d+)\.png/.exec(card.img ?? '')
+  return m ? `${m[1]}/player-shields/en/${m[2]}.png` : ''
+}
+
 export const tierOf = (rating) => (rating >= 75 ? 'gold' : rating >= 65 ? 'silver' : 'bronze')
 
 export const foldText = (s) =>

@@ -82,6 +82,7 @@ function mapCard(item) {
     weakFoot: item.weakFootAbility ?? null,
     foot: item.preferredFoot === 1 ? 'R' : 'L',
     img: item.avatarUrl ?? '',
+    shield: item.shieldUrl ?? '', // EA's official rendered card image
     stats: {
       pac: statValue(stats, 'pac'),
       sho: statValue(stats, 'sho'),

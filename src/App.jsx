@@ -67,6 +67,23 @@ export default function App() {
   const [filters, setFilters] = useState(DEFAULT_FILTERS)
   const [limit, setLimit] = useState(PAGE)
   const [editMode, setEditMode] = useState(false)
+  // 'app' = the app's own card design with FC 27 data; 'ea' = EA's rendered card images,
+  // which are from an older game and can show old ratings and stats.
+  const [cardStyle, setCardStyleState] = useState(() => {
+    try {
+      return localStorage.getItem('fc27-card-style') === 'ea' ? 'ea' : 'app'
+    } catch {
+      return 'app'
+    }
+  })
+  const setCardStyle = (v) => {
+    setCardStyleState(v)
+    try {
+      localStorage.setItem('fc27-card-style', v)
+    } catch {
+      // ignore
+    }
+  }
   const collectionRef = useRef(collection)
   const saveChain = useRef(Promise.resolve())
   const importInput = useRef(null)
@@ -410,6 +427,10 @@ export default function App() {
               <option value="M">Men</option>
               <option value="W">Women</option>
             </select>
+            <select value={cardStyle} onChange={(e) => setCardStyle(e.target.value)} aria-label="Card style" title="EA's card images come from an older game, so ratings and stats on them can be out of date">
+              <option value="app">Cards: FC 27 ratings</option>
+              <option value="ea">Cards: EA images (older ratings)</option>
+            </select>
             <select value={filters.sort} onChange={(e) => setFilter('sort', e.target.value)} aria-label="Sort">
               <option value="rating">Sort: rating</option>
               <option value="owned">Sort: owned first</option>
@@ -434,7 +455,7 @@ export default function App() {
           {shown.length ? (
             <div className="grid">
               {shown.map((card) => (
-                <PlayerCard key={card.id} card={card} qty={qtyOf(card)} editMode={editMode} onToggle={toggleOwned} />
+                <PlayerCard key={card.id} card={card} qty={qtyOf(card)} editMode={editMode} onToggle={toggleOwned} useEaImage={cardStyle === 'ea'} />
               ))}
             </div>
           ) : (
